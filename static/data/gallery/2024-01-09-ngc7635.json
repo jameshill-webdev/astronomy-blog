@@ -1,0 +1,71 @@
+{
+	"metadata": {
+		"date": "2024-01-09",
+		"slug": "2024-01-09-ngc7635",
+		"published": true
+	},
+	"collapsedView": {
+		"title": "Bubble Nebula & Lobster Claw",
+		"thumbnail": {
+			"src": "/images/NGC7635-20240109-thumb.jpg",
+			"alt": "The large lobster claw nebula dominates the right half of this image, with the bubble nebula and scorpion cluster toward the bottom left"
+		}
+	},
+	"expandedView": {
+		"image": {
+			"src": "/images/NGC7635-20240109-expanded.jpg",
+			"expandedSrc": "/images/NGC7635-20240109-full.jpg",
+			"alt": "The large lobster claw nebula dominates the right half of this image, with the bubble nebula and scorpion cluster toward the bottom left"
+		},
+		"title": "Bubble Nebula & Lobster Claw",
+		"objectInformation": {
+			"otherNames": "NGC 7635, C 11",
+			"type": "Emission nebula",
+			"age": "~4 million years",
+			"distance": "7,100 - 11,000 light years",
+			"size": "6 - 10 light years",
+			"constellation": "Cassiopeia"
+		},
+		"equipmentAndMethod": {
+			"optics": "Askar 103 APO refractor + 0.6x focal reducer",
+			"mount": "ZWO AM5",
+			"camera": "ZWO ASI 294 MC + Optolong L-Enhance",
+			"exposures": "150 x 60 seconds",
+			"software": "Deep Sky Stacker, GraXpert, Photoshop"
+		},
+		"content": {
+			"components": [
+				{
+					"type": "paragraph",
+					"parameters": {
+						"text": "This is my current record for the most targets captured in a single image. Four separate objects are visible in this wide-field shot (five counting the half of the diffuse nebula Sh2 161 visible in the top-left corner)."
+					}
+				},
+				{
+					"type": "paragraph",
+					"parameters": {
+						"text": "To the bottom-left is M52, also known as the Scorpion cluster, a dense open star cluster 4,600 light years away and around 85 light years in diameter, estimated to be 158 million years old. The small, bright object at the top and to the left of centre is NGC 7538, an active star-forming emission nebula 10 light years wide and 9,100 light years distant. It contains the largest known protostar, about 300 times the mass of the sun."
+					}
+				},
+				{
+					"type": "paragraph",
+					"parameters": {
+						"text": "Occupying most of the right side of the image is the Lobster Claw nebula, Sh2 157, a rather faint but complex star-forming region around 8,500 light years away, and over 150 light years in diameter."
+					}
+				},
+				{
+					"type": "paragraph",
+					"parameters": {
+						"text": "To the lower-left of centre is the bubble nebula itself, one of the most spellbinding objects I've observed so far. The \"bubble\" is an almost-spherical shell of ionized gas being pushed outward by radiation from the energetic central star BD+60°2522. There is a smaller inner bubble with a more irregular shape, although that is far too small to be visible in my image. As in my recent picture of the flaming star and tadpole nebulae, faint nebulosity is visible throughout the background of the image, although it's more apparent this time."
+					}
+				},
+				{
+					"type": "paragraph",
+					"parameters": {
+						"text": "Overall I'm very pleased with the composition and image quality. It would have been nice to include the full extent of Sh2 161 in the shot, but the field of view just wasn't wide enough even with the reducer. In hindsight, a star reduction step would have been beneficial. A long-term goal is to capture a more detailed shot of the bubble nebula at higher magnification, as well as a separate image of the lobster claw."
+					}
+				}
+			]
+		}
+	}
+}

@@ -1,0 +1,44 @@
+@use 'sass:math';
+
+@function px-to-rem($size) {
+    @return math.div($size, 16px) * 1rem;
+}
+
+@mixin content-constraint {
+    padding-left: $spacing-1;
+    padding-right: $spacing-1;
+    max-width: 100%;
+
+    @include breakpoint-tablet {
+        padding-left: px-to-rem(64px);
+        padding-right: px-to-rem(64px);
+    }
+
+    @include breakpoint-desktop {
+        padding-left: px-to-rem(128px);
+        padding-right: px-to-rem(128px);
+        max-width: $content-max-width;
+        margin: 0 auto;
+    }
+}
+
+@mixin content-constraint-mobile-only {
+    @include breakpoint-tablet-max {
+        padding-left: $spacing-1;
+        padding-right: $spacing-1;
+    }
+}
+
+@mixin sr-only {
+    clip: rect(0 0 0 0); 
+    clip-path: inset(50%);
+    height: 1px;
+    overflow: hidden;
+    position: absolute;
+    white-space: nowrap; 
+    width: 1px;
+}
+
+@mixin scrollbar {
+    scrollbar-color: rgba(255, 255, 255, 0.33) transparent;
+}

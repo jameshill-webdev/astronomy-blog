@@ -1,0 +1,117 @@
+{
+	"metadata": {
+		"slug": "arcminutes-and-arcseconds",
+		"title": "Visualising arc-minutes and arc-seconds",
+		"date": "2024-11-30",
+		"summary": "A brief look at these units of measurement in the context of astrophotography, including some discussion on the related topics of atmospheric seeing, pixel scale, and sampling.",
+		"thumbnail": {
+			"src": "/images/arc-minutes-seconds-article-thumbnail.jpg",
+			"alt": ""
+		},
+		"published": true
+	},
+	"content": {
+		"heading": "Visualising arc-minutes and arc-seconds",
+		"components": [
+			{
+				"type": "paragraph",
+				"parameters": {
+					"text": "For the purposes of astronomical observation, the apparent size of celestial objects is normally expressed using angular degrees. This begins to make sense when you consider the sky as the inside surface of a sphere, with you as the observer at the centre. Each degree is divided into 60 \"minutes\", referred to as arc-minutes or minutes of arc. Each arc-minute can in turn be divided into 60 arc-seconds."
+				}
+			},
+			{
+				"type": "figure",
+				"parameters": {
+					"imageProps": {
+						"src": "/images/degrees-of-arc.png",
+						"alt": ""
+					},
+					"caption": "Diagram illustrating how degrees of arc are used to measure the apparent size of objects in the sky (from <a target=\"_blank\" href=\"https://www.fortworthastro.com/beginner1.html\">fortworthastro.com</a>)"
+				}
+			},
+			{
+				"type": "paragraph",
+				"parameters": {
+					"text": "In astrophotography, arc-seconds are the most commonly used for a variety of reasons relating to their scale. Because of distortion caused by atmospheric turbulence or \"seeing\", resolutions higher than around one arc-second are of limited practical use. Due to this, the size of features visible in celestial objects is usually described in arc-seconds, as finer details than this usually can't be resolved. This is why the resolution of telescopes is typically measured in arc-seconds, and pixel scale, which is an important aspect of an imaging setup which will be explored in more detail a bit later, is measured in arc-seconds per pixel."
+				}
+			},
+			{
+				"type": "figure",
+				"parameters": {
+					"imageProps": {
+						"src": "/images/twinkle.gif",
+						"alt": ""
+					},
+					"caption": "Animated diagram illustrating how \"seeing\" distortion is created as light passes through the atmosphere. This is the reason stars often appear to \"twinkle\" (from <a target=\"_blank\" href=\"https://people.umass.edu/wqd/strobel/telescop/telescpc.htm\">people.umass.edu/wqd/strobel</a>)"
+				}
+			},
+			{
+				"type": "figure",
+				"parameters": {
+					"imageProps": {
+						"src": "/images/seeing-moon-2.gif",
+						"alt": ""
+					},
+					"caption": "Typical effects of seeing distortion as seen in a live recording of the moon (from <a target=\"_blank\" href=\"https://www.handprint.com/ASTRO/seeing1.html\">handprint.com</a>)"
+				}
+			},
+			{
+				"type": "paragraph",
+				"parameters": {
+					"text": "The fundamental limits on optical observation due to seeing are an issue almost everywhere, but there is some local variation. This is the main reason professional telescopes are typically sited high up on mountaintops, in locations that enjoy some of the most stable air (and reliably clear skies) on earth. It also helps that at a higher altitude, there is simply less atmosphere to look through. Famed planetary astrophotographer <a target=\"_blank\" href=\"https://www.damianpeach.com/\">Damian Peach</a> favours the Bahamas as an imaging site for similar reasons."
+				}
+			},
+			{
+				"type": "figure",
+				"parameters": {
+					"expandableImageProps": {
+						"src": "/images/arc-minutes-seconds.jpg",
+						"expandedSrc": "/images/arc-minutes-seconds-full.jpg",
+						"alt": ""
+					}
+				}
+			},
+			{
+				"type": "paragraph",
+				"parameters": {
+					"text": "As these units are so commonly used in astrophotography, it's useful to be able to visualise them. To help myself with this, I created the visual aid shown above using my image of the moon. The actual angular size of the full moon varies by a small amount due to the slightly elliptical shape of its orbit. Although the size is normally quoted as 30 arc-minutes, or half a degree, the average is actually about 31, so that's the scale I decided to use. It's important to note that the moon isn't quite full here, but that's been taken into account."
+				}
+			},
+			{
+				"type": "paragraph",
+				"parameters": {
+					"text": "The scale markers along the borders of the image represent arc-minutes. The zoomed-in portion of the image is approximately one square arc-minute, and is labelled with its own scale in arc-seconds. It's interesting to note that the pixels in the image are roughly one arc-second in size, which is a sensible pixel scale for astrophotography. This is again due to the upper limits on useful resolution imposed by atmospheric seeing conditions, and the resulting fact that most telescopes are designed for an image scale somewhere near this range."
+				}
+			},
+			{
+				"type": "heading",
+				"parameters": {
+					"level": 2,
+					"text": "Undersampling and oversampling"
+				}
+			},
+			{
+				"type": "paragraph",
+				"parameters": {
+					"text": "When an imaging setup's pixel scale is too small or large, it's known as undersampling and oversampling. If the pixels are too large (for example 5 arc-seconds per pixel under 1 arc-second of seeing), resolution is lost because the pixels can't effectively capture all the available detail. This is undersampling. If the pixels are too small (for example 0.2 arc-seconds per pixel under 1 arc-second of seeing), pixel resolution is wasted because the observable detail is limited by the seeing. This is oversampling. Based on this, it's fair to say my moon image is slightly undersampled."
+				}
+			},
+			{
+				"type": "figure",
+				"parameters": {
+					"imageProps": {
+						"src": "/images/ZWO-sampling-example.jpeg",
+						"alt": ""
+					},
+					"caption": "Illustration of undersampling, good sampling, and oversampling (from <a target=\"_blank\" href=\"https://cosgrovescosmos.com/tips-n-techniques/uisng-deconvolution-in-pixinsight-part-2-pfs-and-decon\">cosgrovescosmos.com</a>)"
+				}
+			},
+			{
+				"type": "paragraph",
+				"parameters": {
+					"text": "With undersampling, you're obviously just losing detail, and ending up with a blurrier or more pixelated image than necessary. Oversampling is generally not as bad, although neither are ideal. Besides simply wasting pixel resolution which could be put to good use, another important downside to oversampling is that it increases noise by spreading the same amount of signal over a greater number of pixels. As each pixel has some fixed amount of inherent noise, the total noise is more pronounced relative to the signal. There are also small borders between each pixel on the sensor, although in modern designs these are small enough to be disregarded."
+				}
+			}
+		]
+	}
+}

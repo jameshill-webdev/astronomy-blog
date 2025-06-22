@@ -1,0 +1,19 @@
+$color-white: #ffffff;
+$color-black: #000000;
+$color-grey-slate: #222222;
+$color-grey-alto: #dddddd;
+$color-grey-silver: #bdbdbd;
+$color-blue-twilight: #00234e;
+$color-blue-mignight: #01002a;
+$color-blue-twilight: #011848;
+
+$color-blue-twilight-95: rgb(0, 35, 78, 0.975);
+$color-blue-midnight-50: rgba(1, 0, 42, 0.5);
+$color-blue-midnight-80: rgba(1, 0, 42, 0.8);
+$color-blue-midnight-95: rgba(1, 0, 42, 0.975);
+$color-black-90: rgba(0, 0, 0, 0.9);
+$color-white-25: rgba(255, 255, 255, 0.25);
+
+$gradient-nightsky: linear-gradient($color-blue-mignight, $color-blue-twilight);
+$gradient-nightsky-overlay: linear-gradient($color-blue-midnight-95, $color-blue-twilight-95);
+$gradient-gallery-tile: linear-gradient(to bottom, lighten($color-grey-slate, 5%), darken($color-grey-slate, 5%));

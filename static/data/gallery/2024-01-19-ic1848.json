@@ -1,0 +1,59 @@
+{
+	"metadata": {
+		"date": "2024-01-19",
+		"slug": "2024-01-19-ic1848",
+		"published": true
+	},
+	"collapsedView": {
+		"title": "Soul Nebula",
+		"thumbnail": {
+			"src": "/images/IC1848-20240119-thumb.jpg",
+			"alt": "The soul nebula appears as a broad cavern-like area of glowing gases spanning this image, divided into left and right chambers, with pillars of dust reaching inward from the outer edges"
+		}
+	},
+	"expandedView": {
+		"image": {
+			"src": "/images/IC1848-20240119-expanded.jpg",
+			"expandedSrc": "/images/IC1848-20240119-full.jpg",
+			"alt": ""
+		},
+		"title": "Soul Nebula",
+		"objectInformation": {
+			"otherNames": "Westerhout 5, IC 1848, Sh2 199",
+			"type": "Emission nebula",
+			"age": "~1 million years",
+			"distance": "7,500 light years",
+			"size": "100 light years",
+			"constellation": "Cassiopeia"
+		},
+		"equipmentAndMethod": {
+			"optics": "Askar 103 APO refractor + 0.6x focal reducer",
+			"mount": "ZWO AM5",
+			"camera": "ZWO ASI 294 MC + Optolong L-Enhance",
+			"exposures": "105 x 60 seconds",
+			"software": "Deep Sky Stacker, GraXpert, Photoshop"
+		},
+		"content": {
+			"components": [
+				{
+					"type": "paragraph",
+					"parameters": {
+						"text": "The Soul Nebula is so named as it supposedly resembles a human embryo or \"soul\". It appears alongside the Heart Nebula (not visible in this image). Both are part of the same complex, a huge region of intense star formation, and like other similarly-active regions such as the Orion nebula, it is home to clusters of massive young stars. Intense radiation from these stellar offspring pushes gas and dust outward, forming central cavities. It's believed the resulting compression triggers further waves of star formation."
+					}
+				},
+				{
+					"type": "paragraph",
+					"parameters": {
+						"text": "I'm fairly pleased with how the image turned out, although the noise is quite noticeable. This is mainly due to the relative faintness of the target, which demands more exposure time to improve the all-important signal-to-noise ratio. Next time I'll aim to collect at least double this image's 100 minutes of exposures. Supposedly this nebula is stunning in infra-red, and it would be interesting to try to capture it in that part of the spectrum."
+					}
+				},
+				{
+					"type": "paragraph",
+					"parameters": {
+						"text": "Some nice details are visible despite the noise, such as the \"pillars\" of gas and dust around the inner boundary, and the silhouetted dark nebulae at the bottom. This part of the sky is densely packed with stars, so a post-processing step was applied in photoshop to reduce their dominance in the image."
+					}
+				}
+			]
+		}
+	}
+}

@@ -1,0 +1,59 @@
+{
+	"metadata": {
+		"date": "2024-06-21",
+		"slug": "2024-06-21-m13",
+		"published": true
+	},
+	"collapsedView": {
+		"title": "Hercules Globular Cluster",
+		"thumbnail": {
+			"src": "/images/M13-20240621-thumb.jpg",
+			"alt": "The Hercules globular cluster appears here in the centre of the image as a ball of countless stars growing brighter and more dense toward the centre"
+		}
+	},
+	"expandedView": {
+		"image": {
+			"src": "/images/M13-20240621-expanded.jpg",
+			"expandedSrc": "/images/M13-20240621-full.jpg",
+			"alt": "The Hercules globular cluster appears here in the centre of the image as a ball of countless stars growing brighter and more dense toward the centre"
+		},
+		"title": "Hercules Globular Cluster",
+		"objectInformation": {
+			"otherNames": "M 13, NGC 6205",
+			"type": "Globular star cluster",
+			"age": "11.65 billion years",
+			"distance": "22,200 light years",
+			"size": "145 light years",
+			"constellation": "Hercules"
+		},
+		"equipmentAndMethod": {
+			"optics": "Askar 103 APO refractor",
+			"mount": "ZWO AM5",
+			"camera": "ZWO ASI 294 MC",
+			"exposures": "50 x 30 seconds",
+			"software": "Deep Sky Stacker, GraXpert, Photoshop"
+		},
+		"content": {
+			"components": [
+				{
+					"type": "paragraph",
+					"parameters": {
+						"text": "Discovered in 1714 by Edmond Halley of comet fame, and later catalogued by Charles Messier, this ancient structure is supposedly visible to the naked eye in dark skies. It is a densely-packed cluster containing an estimated 300,000 to 500,000 stars, one of many such objects residing in the outer halo of our galaxy, slowly orbiting the central core. Evidence suggests these may be remnants of captured dwarf galaxies."
+					}
+				},
+				{
+					"type": "paragraph",
+					"parameters": {
+						"text": "The majority of its stars are thought to be very old, suggesting it was formed not long after the galaxy itself. In 1974, it was chosen as the target for the Arecibo message, an experimental signal sent out from earth in the hope it may one day be received by another intelligence. Unfortunately (or perhaps fortunately), any potential reply will take at least 45,000 years to reach us."
+					}
+				},
+				{
+					"type": "paragraph",
+					"parameters": {
+						"text": "There are a few small galaxies also visible in the image, the most prominent of which is NGC 6207 to the bottom left of M13. It came out fairly well despite relatively little exposure time, thanks mainly to the brightness of the target, but it is noticeably noisy as a result. As I'm photographing most of these targets for the first time, my priority is making the most of the rare clear nights we are afforded in the UK to capture as many as possible, rather than worrying too much about quality."
+					}
+				}
+			]
+		}
+	}
+}

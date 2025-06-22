@@ -1,0 +1,65 @@
+{
+	"metadata": {
+		"date": "2024-01-09",
+		"slug": "2024-01-09-ngc1893",
+		"published": true
+	},
+	"collapsedView": {
+		"title": "Flaming Star Nebula & Tadpole Nebula",
+		"thumbnail": {
+			"src": "/images/NGC1893-20240109-thumb.jpg",
+			"alt": "The tadpole nebula is in the top-left corner here, with the two tadpoles appearing to swim downward, and the flaming star nebula looking like a burning flare to the bottom-left of the image"
+		}
+	},
+	"expandedView": {
+		"image": {
+			"src": "/images/NGC1893-20240109-expanded.jpg",
+			"expandedSrc": "/images/NGC1893-20240109-full.jpg",
+			"alt": "The tadpole nebula is in the top-left corner here, with the two tadpoles appearing to swim downward, and the flaming star nebula looking like a burning flare to the bottom-left of the image"
+		},
+		"title": "Flaming Star & Tadpole Nebulae",
+		"objectInformation": {
+			"otherNames": "NGC 1893, IC 405 & IC 410, C 31",
+			"type": "Emission & reflection nebula, emission nebula",
+			"age": "2 - 4 million years",
+			"distance": "1,500 light years, 12,000 light years",
+			"size": "5 light years, 100 light years",
+			"constellation": "Auriga"
+		},
+		"equipmentAndMethod": {
+			"optics": "Askar 103 APO refractor + 0.6x focal reducer",
+			"mount": "ZWO AM5",
+			"camera": "ZWO ASI 294 MC + Optolong L-Enhance",
+			"exposures": "150 x 60 seconds",
+			"software": "Deep Sky Stacker, GraXpert, Photoshop"
+		},
+		"content": {
+			"components": [
+				{
+					"type": "paragraph",
+					"parameters": {
+						"text": "Appearing as similar-sized neighbours, in reality these striking nebulae are vastly different in both size and distance."
+					}
+				},
+				{
+					"type": "paragraph",
+					"parameters": {
+						"text": "The flaming star nebula (bottom right) is aptly named, and is the smaller and closer of the pair. This object is illuminated by the star AE Aurigae, visible near its centre. It is both an emission and a reflection nebula. The dominant red hues are from gas ionized by the star's radiation, and the less-visible blues in the inner portion are dust which is reflecting visible light from the star (although these are very faint in my image)."
+					}
+				},
+				{
+					"type": "paragraph",
+					"parameters": {
+						"text": "The tadpole nebula (top left) is much larger and many times further away. It is named after two prominent gas globules that resemble swimming tadpoles, visible above the dark dust clouds in the centre, which are likely to contain actively forming stars. This nebula is a much more active star-forming region than its fiery counterpart. The young stars in the cluster NGC 1893 lie inside the nebula and illuminate it with their radiation, which is also responsible for pushing the \"tails\" of the tadpoles away from the centre."
+					}
+				},
+				{
+					"type": "paragraph",
+					"parameters": {
+						"text": "Once again I used the dual-band filter to suppress light pollution, and the 0.6x focal reducer to fit both objects into the same shot. A slightly wider field of view would have been nice. Overall I'm quite satisfied with this image, especially the composition, with the contrasting nebulae in opposite corners and bright stars in the centre. Detail and noise are better than most previous images, due to a larger-than-usual total exposure time. Some faint nebulosity is visible in the background: I'd like to try to bring this out a bit more next time, as well as showing more of the reflected blue light in the flaming star nebula."
+					}
+				}
+			]
+		}
+	}
+}

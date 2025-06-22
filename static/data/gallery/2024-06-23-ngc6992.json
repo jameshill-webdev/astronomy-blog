@@ -1,0 +1,53 @@
+{
+	"metadata": {
+		"date": "2024-06-23",
+		"slug": "2024-06-23-ngc6992",
+		"published": true
+	},
+	"collapsedView": {
+		"title": "Eastern Veil Nebula",
+		"thumbnail": {
+			"src": "/images/NGC6992-20240623-thumb.jpg",
+			"alt": "The arc-shaped veil of gas spanning this image is mostly green in the upper parts and red-orange in the lower parts"
+		}
+	},
+	"expandedView": {
+		"image": {
+			"src": "/images/NGC6992-20240623-expanded.jpg",
+			"expandedSrc": "/images/NGC6992-20240623-full.jpg",
+			"alt": "The arc-shaped veil of gas spanning this image is mostly green in the upper parts and red-orange in the lower parts"
+		},
+		"title": "Eastern Veil Nebula",
+		"objectInformation": {
+			"otherNames": "NGC 6992, C 33",
+			"type": "Supernova remnant",
+			"age": "10,000 - 20,000 years",
+			"distance": "2,400 light years",
+			"size": "~50 light years",
+			"constellation": "Cygnus"
+		},
+		"equipmentAndMethod": {
+			"optics": "Askar 103 APO refractor",
+			"mount": "ZWO AM5",
+			"camera": "ZWO ASI 294 MC + Optolong L-Enhance",
+			"exposures": "80 x 30 seconds",
+			"software": "Deep Sky Stacker, GraXpert, Photoshop"
+		},
+		"content": {
+			"components": [
+				{
+					"type": "paragraph",
+					"parameters": {
+						"text": "The stunning eastern veil is part of the larger veil nebula complex, which is all that remains of a star about 20 times the mass of our sun. It's thought the supernova that created it would have been bright enough to be visible during the day. The veil is composed mostly of hydrogen and oxygen gas, heated and ionized by the energy of the supernova's still-expanding shockwave. Its wispy structure is the result of variations in the density of the interstellar medium."
+					}
+				},
+				{
+					"type": "paragraph",
+					"parameters": {
+						"text": "I'm quite happy with how the image turned out. Although the noise and contrast do leave a bit to be desired, it is a marked improvement over my previous attempt, which was one of my earliest images. This is one of my favourite objects of those I've imaged in the time since I began astrophotography. It's both photogenic and forgivingly bright, and Cygnus is well placed almost directly overhead during the summer months, placing it in an ideal position."
+					}
+				}
+			]
+		}
+	}
+}

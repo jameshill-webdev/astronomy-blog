@@ -1,0 +1,65 @@
+{
+	"metadata": {
+		"date": "2023-12-05",
+		"slug": "2023-12-05-m31",
+		"published": true
+	},
+	"collapsedView": {
+		"title": "Andromeda Galaxy",
+		"thumbnail": {
+			"src": "/images/M31-20231205-thumb.jpg",
+			"alt": "The Andromeda galaxy, showing dust lanes and nebulae in the spiral arms, with its two sattelite dwarf galaxies M32 and M110"
+		}
+	},
+	"expandedView": {
+		"image": {
+			"src": "/images/M31-20231205-expanded.jpg",
+			"expandedSrc": "/images/M31-20231205-full.jpg",
+			"alt": "The Andromeda galaxy, showing dust lanes and nebulae in the spiral arms, with its two sattelite dwarf galaxies M32 and M110"
+		},
+		"title": "Andromeda Galaxy",
+		"objectInformation": {
+			"otherNames": "M31, NGC224",
+			"type": "Barred spiral galaxy",
+			"age": "5 - 10 billion years",
+			"distance": "2.5 million light years",
+			"size": "152,000 light years",
+			"constellation": "Andromeda"
+		},
+		"equipmentAndMethod": {
+			"optics": "Askar 103 APO refractor + 0.6x reducer",
+			"mount": "ZWO AM5",
+			"camera": "ZWO ASI 294 MC",
+			"exposures": "110 x 60 seconds",
+			"software": "Deep Sky Stacker, GraXpert, Photoshop"
+		},
+		"content": {
+			"components": [
+				{
+					"type": "paragraph",
+					"parameters": {
+						"text": "The Andromeda galaxy is our closest galactic neighbour. It is around the same mass as the Milky Way, but thought to be slightly larger. Measurements indicate it is moving toward us - it is expected to collide and merge with our own galaxy in approximately 5 billion years. Visible as a faint smudge, if only from relatively dark skies, it is the most distant object that can be seen with the unaided eye."
+					}
+				},
+				{
+					"type": "paragraph",
+					"parameters": {
+						"text": "The \"little cloud\" was first recorded by the Persian astronomer Abd al-Rahman al-Sufi in 964 CE. In 1755, Immanuel Kant proposed that the Milky Way could be just one of many \"islands\" of stars, along with M31 and similar objects, which were widely thought to be nebulae at the time. Cepheid variable stars were discovered in M31 by Edwin Hubble in 1925 and used to measure its distance from us, finally proving what had become known as the \"island universe\" hypothesis."
+					}
+				},
+				{
+					"type": "paragraph",
+					"parameters": {
+						"text": "This image was the first one I took using the 0.6x focal reducer, which significantly increases the telescope's field of view. This was necessary to fit the whole galaxy in the shot, as it's apparent size is quite large - about 6 times wider than the full moon. I was very pleased with the results. The signal-to-noise ratio is quite good and the image appears clean. Nice details like the spiral structure, dust lanes, and star-forming regions are evident. Elliptical dwarf galaxies M32 and M110, satellites of M31, can be seen above and below the disc."
+					}
+				},
+				{
+					"type": "paragraph",
+					"parameters": {
+						"text": "There is still room for improvement, aside from simply capturing more data - the bright core of the galaxy is over-exposed. This could be greatly improved by creating a HDR image using the same technique as my earlier picture of the Orion nebula, which is my aim when I next photograph this target. There is also some slight field curvature in the corners, but this is very expensive and difficult to fully correct, and the impact on the overall image is minor."
+					}
+				}
+			]
+		}
+	}
+}

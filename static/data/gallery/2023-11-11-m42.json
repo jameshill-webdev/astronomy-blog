@@ -1,0 +1,59 @@
+{
+	"metadata": {
+		"date": "2023-11-11",
+		"slug": "2023-11-11-m42",
+		"published": true
+	},
+	"collapsedView": {
+		"title": "Orion Nebula & Running Man Nebula",
+		"thumbnail": {
+			"src": "/images/M42-20231111-thumb.jpg",
+			"alt": "HDR image of the Orion nebula with the smaller Running Man nebula to the right"
+		}
+	},
+	"expandedView": {
+		"image": {
+			"src": "/images/M42-20231111-expanded.jpg",
+			"expandedSrc": "/images/M42-20231111-full.jpg",
+			"alt": "HDR image of the Orion nebula with the smaller Running Man nebula to the right"
+		},
+		"title": "Orion Nebula",
+		"objectInformation": {
+			"otherNames": "M 42, NGC 1976",
+			"type": "Star forming region",
+			"age": "3 million years",
+			"distance": "~1340 light years",
+			"size": "24 light years",
+			"constellation": "Orion"
+		},
+		"equipmentAndMethod": {
+			"optics": "Askar 103 APO refractor",
+			"mount": "ZWO AM5",
+			"camera": "ZWO ASI 294 MC",
+			"exposures": "45 x 10 seconds (core), 15 x 120 seconds (outer)",
+			"software": "Deep Sky Stacker, GraXpert, Photoshop"
+		},
+		"content": {
+			"components": [
+				{
+					"type": "paragraph",
+					"parameters": {
+						"text": "The famous Orion nebula, together with the smaller Running Man nebula, can be found just below the three stars forming Orion's belt. Together, they form the \"Sword\" of Orion. One of the brightest nebulae in the sky, it is visible to the naked eye without any equipment even in relatively light-polluted areas."
+					}
+				},
+				{
+					"type": "paragraph",
+					"parameters": {
+						"text": "However, it is surprisingly difficult to photograph, because the inner core is so bright compared to its outer regions. To address this, I took two sets of images - 10 second exposures for the bright core, and 120 second exposures for the fainter parts, which were combined in Photoshop to produce the final HDR image."
+					}
+				},
+				{
+					"type": "paragraph",
+					"parameters": {
+						"text": "This nebula is relatively small and close to earth, as well as being a star-forming region, resulting in it being one of the most studied objects by astronomers. It contains many stars which are actively forming. Some have protoplanetary discs, the beginnings of planetary systems. Recently several Jupiter-sized rogue planets (free-floating planets with no parent star) were discovered within the nebula using data from the James Webb space telescope."
+					}
+				}
+			]
+		}
+	}
+}

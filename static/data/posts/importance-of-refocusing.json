@@ -1,0 +1,151 @@
+{
+	"metadata": {
+		"slug": "importance-of-refocusing",
+		"title": "The importance of refocusing as ambient temperature changes",
+		"date": "2025-06-14",
+		"summary": "Changes in ambient temperature can cause focus to shift during the course of an imaging session. This article explores the results of not refocusing regularly, as well as some simple but effective tools to help achieve perfect focus.",
+		"thumbnail": {
+			"src": "/images/bahtinov-mask-thumb.jpg",
+			"alt": ""
+		},
+		"published": true
+	},
+	"content": {
+		"heading": "The importance of refocusing as ambient temperature changes",
+		"components": [
+			{
+				"type": "paragraph",
+				"parameters": {
+					"text": "Astrophotography is an activity where seemingly trivial details can have a disproportionately large effect on the outcome. One of these factors, which will be explored in this article, is the impact of minor shifts in focus caused by changes in the ambient temperature."
+				}
+			},
+			{
+				"type": "paragraph",
+				"parameters": {
+					"text": "Going back to basics is helpful when thinking about focus. A telescope is essentially a tube with an objective lens at the front and an eyepiece (or camera) at the rear. For an image to be in focus, there must be a precise distance between these two elements. As ambient temperature changes, the material the tube is made from will expand or contract, which changes this distance and therefore also the focus. This is illustrated in the images below, borrowed from Liverpool Astronomical Society's excellent article <a target=\"_blank\" href=\"https://liverpoolas.org/2013/12/21/buying-a-telescope-by-steve-southern-revised-november-2013/\">Buying a Telescope</a> by Steve Southern."
+				}
+			},
+			{
+				"type": "figure",
+				"parameters": {
+					"imageProps": {
+						"src": "/images/telescope-refractor.jpg",
+						"alt": ""
+					},
+					"caption": "The refractor is the simplest design of telescope, and probably the most well-known."
+				}
+			},
+			{
+				"type": "figure",
+				"parameters": {
+					"imageProps": {
+						"src": "/images/telescope-reflector.jpg",
+						"alt": ""
+					},
+					"caption": "A Newtonian reflector, named after its inventor, Sir Isaac Newton."
+				}
+			},
+			{
+				"type": "paragraph",
+				"parameters": {
+					"text": "Those of us not yet blessed with backyard observatories normally keep telescopes and other equipment inside our homes, for obvious reasons. Because the indoor and outdoor temperatures are rarely equal, telescopes generally require an adjustment period after being set up, in order to reach thermal equilibrium. Observatories largely avoid this problem because this temperature difference is usually much smaller."
+				}
+			},
+			{
+				"type": "paragraph",
+				"parameters": {
+					"text": "Focusing too soon after setting up is often a waste of time, as the focus will inevitably shift slightly once the telescope has adjusted. On top of this, the ambient temperature will usually change gradually during an imaging session. Below is a comparison of two images of the galaxy M33 in Triangulum, showing the impact which being even slightly out of focus can have on the quality of the final image."
+				}
+			},
+			{
+				"type": "figure",
+				"parameters": {
+					"imageComparisonProps": {
+						"lowerImageSrc": "/images/focus-comparison-m33-a.jpg",
+						"lowerImageAlt": "",
+						"upperImageSrc": "/images/focus-comparison-m33-b.jpg",
+						"upperImageAlt": ""
+					},
+					"caption": "Even a tiny shift away from ideal focus can noticeably degrade image quality"
+				}
+			},
+			{
+				"type": "paragraph",
+				"parameters": {
+					"text": "When the frames for the right image were taken, I had neglected to properly refocus since setting up, and the ambient temperature had changed, causing the focus to shift ever so slightly. This results in a noticeably blurry image, particularly when compared side-by-side with the properly-focused equivalent. The solution is simply to check focus at regular intervals (typically every 30 to 60 minutes). I am sure I must be far from the only beginner who has made this error, and had it cost them hours of precious clear-sky time!"
+				}
+			},
+			{
+				"type": "heading",
+				"parameters": {
+					"level": 2,
+					"text": "The Bahtinov mask"
+				}
+			},
+			{
+				"type": "figure",
+				"parameters": {
+					"imageProps": {
+						"src": "/images/bahtinov-mask.jpg",
+						"alt": ""
+					},
+					"caption": "An example of a Bahtinov mask designed to fit 100mm aperture telescopes"
+				}
+			},
+			{
+				"type": "paragraph",
+				"parameters": {
+					"text": "It's often surprisingly difficult to tell when an image is perfectly in focus, particularly with other factors like seeing affecting the apparent clarity and stability of the image. One beautifully simple but effective tool to resolve this is the Bahtinov mask. This is simply a sheet or board of opaque material large enough to cover the objective lens of the telescope, with a series of evenly-spaced slits cut into it in a specific pattern, as seen below."
+				}
+			},
+			{
+				"type": "figure",
+				"parameters": {
+					"imageProps": {
+						"src": "/images/bahtinov-mask-fitted.jpg",
+						"alt": ""
+					},
+					"caption": "The Bahtinov mask in place on the telescope (the lens cap would obviously need to be removed during actual use)"
+				}
+			},
+			{
+				"type": "paragraph",
+				"parameters": {
+					"text": "When placed at the front of the telescope, the slits create diffraction spikes. These are visual artifacts caused by diffraction of light around obstructions in the light path. Good examples of these are seen in images from the Hubble or James Webb space telescopes, where bright stars appear to be surrounded by a cross or star-shaped arrangement of spikes, caused by the different arrangement of the secondary mirror supports in each telescope."
+				}
+			},
+			{
+				"type": "figure",
+				"parameters": {
+					"imageProps": {
+						"src": "/images/hubble-jwst.jpg",
+						"alt": ""
+					},
+					"caption": "Diffraction spikes can be seen on these images from the Hubble and James Webb telescopes. The hubble's are cross-shaped and the JWST's are six-pointed stars."
+				}
+			},
+			{
+				"type": "paragraph",
+				"parameters": {
+					"text": "The secret is in how the spike pattern created by the bahtinov mask changes as the telescope moves in and out of focus. Each spike moves on its perpendicular axis. When the telescope is out of focus, the spikes are misaligned and overlap in different places. The better focus becomes, the closer together the intersection points of the spikes. When the telescope is perfectly focused, the spikes align and all intersect perfectly in the centre of the light source. This is shown in the gif below (from <a target=\"_blank\" href=\"https://en.wikipedia.org/wiki/Bahtinov_mask\">Wikipedia</a>)."
+				}
+			},
+			{
+				"type": "figure",
+				"parameters": {
+					"imageProps": {
+						"src": "/images/bahtinov-mask-focusing.gif",
+						"alt": ""
+					},
+					"caption": "The diffraction spikes align when the image is perfectly focused"
+				}
+			},
+			{
+				"type": "paragraph",
+				"parameters": {
+					"text": "The Bahtinov mask is an ingenious piece of technology. It's so simple you could make one yourself without much trouble, and costs almost nothing, yet it works so well it's become a near-indispensable tool in astronomy (at least for me personally). In terms of cost to benefit ratio, this has to be the best money I've ever spent in the hobby. Even with an automatic focuser, it's still useful for verifying (and if necessary, manually fine-tuning) focus."
+				}
+			}
+		]
+	}
+}

@@ -1,0 +1,59 @@
+{
+	"metadata": {
+		"date": "2024-11-24",
+		"slug": "2023-11-24-m81m82",
+		"published": true
+	},
+	"collapsedView": {
+		"title": "Bode's Galaxy & Cigar Galaxy",
+		"thumbnail": {
+			"src": "/images/M81-M82-20231124-thumb.jpg",
+			"alt": "The elegant spiral of Bode's galaxy, alongside the smaller, appropriately-named Cigar galaxy"
+		}
+	},
+	"expandedView": {
+		"image": {
+			"src": "/images/M81-M82-20231124-expanded.jpg",
+			"expandedSrc": "/images/M81-M82-20231124-full.jpg",
+			"alt": "The elegant spiral of Bode's galaxy, alongside the smaller, appropriately-named Cigar galaxy"
+		},
+		"title": "Bode's Galaxy & Cigar Galaxy",
+		"objectInformation": {
+			"otherNames": "M 81 and M 82",
+			"type": "Grand design spiral galaxy, starburst galaxy",
+			"age": "13.3 billion years",
+			"distance": "12 million light years",
+			"size": "96,000 light years, 40,000 light years",
+			"constellation": "Ursa Major"
+		},
+		"equipmentAndMethod": {
+			"optics": "Askar 103 APO refractor",
+			"mount": "ZWO AM5",
+			"camera": "ZWO ASI 294 MC",
+			"exposures": "100 x 60 seconds",
+			"software": "Deep Sky Stacker, GraXpert, Photoshop"
+		},
+		"content": {
+			"components": [
+				{
+					"type": "paragraph",
+					"parameters": {
+						"text": "While it may not be the biggest or brightest galaxy in the night sky, Bode's galaxy is certainly one of the most beautiful. It was discovered in 1774 by Johann Bode, after whom it is named, five years before it was recorded as M81 by Charles Messier and Pierre Méchain."
+					}
+				},
+				{
+					"type": "paragraph",
+					"parameters": {
+						"text": "Nearby is the smaller cigar galaxy, also known as Messier 82. So named because of its elongated apparent shape, this galaxy is actually a spiral, only appearing the way it does because we are viewing it almost edge-on. It is classified as a \"starburst\" galaxy owing to an unusually high rate of star formation - ten times that found in our own galaxy. This is thought to have been caused by an interaction with its larger neighbour. It also contains the brightest pulsar known, M82-X2, discovered in 2014."
+					}
+				},
+				{
+					"type": "paragraph",
+					"parameters": {
+						"text": "While still quite noisy, this is an improvement over my previous images, owing mostly to having more than twice the total exposure time. Some fine detail is visible, particularly in the spiral arms of M81, including dust lanes and star-forming regions."
+					}
+				}
+			]
+		}
+	}
+}

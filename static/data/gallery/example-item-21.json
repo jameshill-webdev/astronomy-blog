@@ -1,0 +1,59 @@
+{
+    "metadata": {
+        "date": "",
+        "slug": "",
+        "published": true
+    },
+    "collapsedView": {
+        "title": "Coming soon",
+        "thumbnail": {
+            "src": "",
+            "alt": ""
+        }
+    },
+    "expandedView": {
+        "image": {
+            "src": "/images/",
+            "expandedSrc": "/images/",
+            "alt": ""
+        },
+        "title": "Coming soon",
+        "objectInformation": {
+            "otherNames": "",
+            "type": "",
+            "age": "",
+            "distance": "",
+            "size": "",
+            "constellation": ""
+        },
+        "equipmentAndMethod": {
+            "optics": "Askar 103 APO refractor",
+            "mount": "ZWO AM5",
+            "camera": "ZWO ASI 294 MC",
+            "exposures": "",
+            "software": "Deep Sky Stacker, GraXpert, Photoshop"
+        },
+        "content": {
+            "components": [
+                {
+                    "type": "paragraph",
+                    "parameters": {
+                        "text": ""
+                    }
+                },
+                {
+                    "type": "paragraph",
+                    "parameters": {
+                        "text": ""
+                    }
+                },
+                {
+                    "type": "paragraph",
+                    "parameters": {
+                        "text": ""
+                    }
+                }
+            ]
+        }
+    }
+}

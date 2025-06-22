@@ -1,0 +1,76 @@
+:global(html) {
+	background: $color-blue-twilight;
+	background: $gradient-nightsky;
+	background-attachment: fixed;
+}
+
+:global(body) {
+	background: $color-blue-twilight;
+	background: $gradient-nightsky;
+	background-attachment: fixed;
+	color: $color-grey-alto;
+	font-family: 'Montserrat-Regular';
+	font-size: $font-size-m;
+	margin: 0;
+	padding: 0;
+	overflow-y: scroll;
+}
+
+:global(main) {
+	min-height: 100vh;
+}
+
+:global(h1) {
+    border-bottom: 1px solid $color-grey-alto;
+    display: block;
+    text-align: center;
+    padding-bottom: $spacing-1;
+    margin-top: $spacing-2;
+    margin-bottom: $spacing-2;
+
+	@include typeface-heading-1;
+
+	& {
+		font-weight: normal;
+	}
+
+	@include breakpoint-tablet {
+		margin-top: $spacing-3;
+	}
+}
+
+:global(h2) {
+	margin: 0;
+
+    @include typeface-heading-2;
+}
+:global(h3) {
+	margin: 0;
+
+    @include typeface-heading-3;
+}
+:global(p),
+:global(ul),
+:global(ol) {
+	margin: 0 0 $spacing-2 0;
+	
+    @include typeface-body;
+
+	@include breakpoint-tablet {
+        margin: 0 0 $spacing-3 0;
+    }
+}
+
+:global(ul),
+:global(ol) {
+    padding-left: $spacing-2;
+}
+
+:global(a) {
+	color: $color-white;
+}
+
+:global(.hide-scrollbar) {
+	overflow-y: hidden !important;
+	max-height: 100vh;
+}

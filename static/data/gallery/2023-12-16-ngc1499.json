@@ -1,0 +1,59 @@
+{
+	"metadata": {
+		"date": "2023-12-16",
+		"slug": "2023-12-16-ngc1499",
+		"published": true
+	},
+	"collapsedView": {
+		"title": "California Nebula",
+		"thumbnail": {
+			"src": "/images/NGC1499-20231216-thumb.jpg",
+			"alt": "The California nebula, shaped somewhat like the state it is named after, appears quite orange in colour here"
+		}
+	},
+	"expandedView": {
+		"image": {
+			"src": "/images/NGC1499-20231216-expanded.jpg",
+			"expandedSrc": "/images/NGC1499-20231216-full.jpg",
+			"alt": "The California nebula, shaped somewhat like the state it is named after, appears quite orange in colour here"
+		},
+		"title": "California Nebula",
+		"objectInformation": {
+			"otherNames": "NGC 1499, Sh2 220",
+			"type": "Emission nebula",
+			"age": "~7 million years",
+			"distance": "1,000 light years",
+			"size": "100 light years",
+			"constellation": "Perseus"
+		},
+		"equipmentAndMethod": {
+			"optics": "Askar 103 APO refractor + 0.6x focal reducer",
+			"mount": "ZWO AM5",
+			"camera": "ZWO ASI 294 MC + Optolong L-Enhance",
+			"exposures": "78 x 60 seconds",
+			"software": "Deep Sky Stacker, GraXpert, Photoshop"
+		},
+		"content": {
+			"components": [
+				{
+					"type": "paragraph",
+					"parameters": {
+						"text": "This emission nebula is named after the US state of California, whose outline it resembles. Despite its large size, it is quite faint, and allegedly very difficult to observe visually. Testament to this fact, it was only discovered in 1884, by E E Barnard of Barnard's Star fame. I'd have no hope of seeing it through an eyepiece from my light-polluted urban location!"
+					}
+				},
+				{
+					"type": "paragraph",
+					"parameters": {
+						"text": "Although comparatively large and visually stunning, the nebula is not a particularly active star-forming region. It is mainly illuminated by radiation from the nearby star Menkib, one of the most energetic stars in our galaxy, which can be seen at the top of the image."
+					}
+				},
+				{
+					"type": "paragraph",
+					"parameters": {
+						"text": "I opted for the dual-band filter again for this target. The 0.6x focal reducer was necessary to fit the nebula into the telescope's field of view, as it's apparent width is about 4 times that of the full moon. I'm happy with the result, but much of the fainter detail is hardly visible - as usual, this is down to a relatively short total exposure time. My goal for the next attempt will be to bring out as much of this detail as possible by capturing several times more data."
+					}
+				}
+			]
+		}
+	}
+}

@@ -1,0 +1,59 @@
+{
+	"metadata": {
+		"date": "2024-03-30",
+		"slug": "2024-03-30-m106",
+		"published": true
+	},
+	"collapsedView": {
+		"title": "Messier 106 Region",
+		"thumbnail": {
+			"src": "/images/M106-20240330-thumb.jpg",
+			"alt": "The giant spiral galaxy M106 looks relatively small in the top-centre of this image, with the six other visible galaxies appearing smaller still at their immense distances from us"
+		}
+	},
+	"expandedView": {
+		"image": {
+			"src": "/images/M106-20240330-expanded.jpg",
+			"expandedSrc": "/images/M106-20240330-full.jpg",
+			"alt": "The giant spiral galaxy M106 looks relatively small in the top-centre of this image, with the six other visible galaxies appearing smaller still at their immense distances from us"
+		},
+		"title": "Messier 106 Region",
+		"objectInformation": {
+			"otherNames": "M 106, NGC 4258",
+			"type": "intermediate spiral galaxy",
+			"age": "13.28 billion years",
+			"distance": "23.5 million light years",
+			"size": "135,000 light years",
+			"constellation": "Canes Venatici"
+		},
+		"equipmentAndMethod": {
+			"optics": "Askar 103 APO refractor",
+			"mount": "ZWO AM5",
+			"camera": "ZWO ASI 294 MC",
+			"exposures": "100 x 60 seconds",
+			"software": "Deep Sky Stacker, GraXpert, Photoshop"
+		},
+		"content": {
+			"components": [
+				{
+					"type": "paragraph",
+					"parameters": {
+						"text": "M106 is larger than our own galaxy, about the same size as M31. At its core is a supermassive black hole estimated at 39 million times the mass of our sun. Radiation from the accretion disk is amplified by surrounding clouds of water molecules, creating what is known as a water vapour megamaser. In 1999, this was used to measure the size of the accretion disk, allowing for the first direct measurement of the distance to another galaxy. This in turn has allowed more accurate measurements of the distance to many similar objects."
+					}
+				},
+				{
+					"type": "paragraph",
+					"parameters": {
+						"text": "Six other galaxies are visible in this image. Next largest to M106 is NGC 4217 in the bottom left corner, an edge-on spiral galaxy 60 million light years distant, with the smaller NGC 4226 just above it. In the bottom right is the lenticular galaxy NGC 4220, and just below M106 in the centre of the image is NGC 4248, a small irregular galaxy 24 million light years from us. Directly below it, and easily mistaken for stars in my image, are the incredibly distant galaxies NGC 4231 and 4232, which form an interacting pair."
+					}
+				},
+				{
+					"type": "paragraph",
+					"parameters": {
+						"text": "Known collectively as Holm 356, this pair of galaxies holds the current record for the most distant object I've photographed, at over 350 million light years away. The light which fell on the camera's sensor to form this image began its journey before dinosaurs evolved on earth. I'm quite happy with the image overall; some nice detail is visible, especially in the inner part of M106. It is a little over-processed and contrast could be better. Next time I'd like to get a higher-magnification shot focusing on M106 itself."
+					}
+				}
+			]
+		}
+	}
+}

@@ -1,0 +1,150 @@
+{
+    "metadata": {
+        "slug": "dual-band-filter",
+        "title": "How much difference does a dual band filter make?",
+        "date": "2024-11-25",
+        "summary": "Dual band pass filters are a popular choice when photographing emission nebulae. In this article, I explore the issues they help to mitigate, and show how much difference they make for me.",
+        "thumbnail": {
+            "src": "/images/dual-band-filter-article-thumb.jpg",
+            "alt": ""
+        },
+        "published": true
+    },
+    "content": {
+        "heading": "How much difference does a dual band filter make?",
+        "components": [
+            {
+                "type": "figure",
+                "parameters": {
+                    "expandableImageProps": {
+                        "src": "/images/light-pollution-earth.jpg",
+                        "expandedSrc": "/images/light-pollution-earth-full.jpg",
+                        "alt": ""
+                    },
+                    "caption": "NASA satellite mosaic image of the Earth at night, showing the extent of artificial lighting"
+                }
+            },
+            {
+                "type": "paragraph",
+                "parameters": {
+                    "text": "Light pollution is one of the most significant of the many challenges facing the astrophotographer. The countless sources of artificial light which pervade the modern world create a perpetual twilight, depriving us of the full splendour of the night sky and rendering stunning sights like the Milky Way invisible for most of us. Besides the negative effects on nature and human mental health, this obviously has a big impact on astrophotography, which involves capturing light from extremely faint sources using highly sensitive equipment."
+                }
+            },
+            {
+                "type": "figure",
+                "parameters": {
+                    "imageProps": {
+                        "src": "/images/light-pollution-map.jpg",
+                        "alt": ""
+                    },
+                    "caption": "Screenshot of the light pollution map showing the British Isles"
+                }
+            },
+            {
+                "type": "paragraph",
+                "parameters": {
+                    "text": "A quick glance at the <a href=\"https://www.lightpollutionmap.info\">light pollution map</a> shows the situation in the UK quite clearly. Aside from the lucky few who have regular access to dark skies, most of us live in at least somewhat urban areas, meaning this is a challenge faced by almost everyone in the hobby, to a greater or lesser extent. My suburban city location is a 7 on the Bortle scale, which is worse than average, and isn't helped by light from nearby buildings."
+                }
+            },
+            {
+                "type": "paragraph",
+                "parameters": {
+                    "text": "Narrowband filters are designed to work around this problem by only allowing a specific, narrow band of light to pass through. Single-band filters, the simplest type, are mainly designed for monochrome cameras, but those are more complex and challenging to work with. In recent years, multi-band filters have become popular, as they work well with the more straightforward one-shot colour (OSC) cameras, and eliminate the need for multiple filters to create a single image. They don't work well for all targets, and are mainly intended for emission nebulae, but thankfully a large number of the objects we want to photograph fall into that category."
+                }
+            },
+            {
+                "type": "figure",
+                "parameters": {
+                    "imageProps": {
+                        "src": "/images/l-enhance-filter.jpg",
+                        "alt": ""
+                    },
+                    "caption": "Optolong L-Enhance dual band pass filter"
+                }
+            },
+            {
+                "type": "paragraph",
+                "parameters": {
+                    "text": "One popular example of a dual bandpass filter is the Optolong L-Enhance, which I've been using for about a year. It transmits two bands: hydrogen alpha (Ha) in one, and hydrogen beta (Hb) and oxygen 3 (O III) in the other. The light from emission nebulae mainly resides within these wavelengths. Most sources of light pollution emit in other ranges (such as Sodium) which are excluded by the filter."
+                }
+            },
+            {
+                "type": "figure",
+                "parameters": {
+                    "expandableImageProps": {
+                        "src": "/images/l-enhance-transmission-chart.png",
+                        "expandedSrc": "/images/l-enhance-transmission-chart.png",
+                        "alt": ""
+                    },
+                    "caption": "Transmission chart for the L-Enhance filter"
+                }
+            },
+            {
+                "type": "paragraph",
+                "parameters": {
+                    "text": "Below is a comparison of images of the horsehead and flame nebulae (IC 434 and NGC 2024), to demonstrate the effect of the l-enhance filter. The right-hand image (70 one-minute subs) was taken without a filter, and the left-hand image (40 one-minute subs) using the l-enhance filter. Despite only having just over half the total exposure time of the unfiltered equivalent, much more detail is visible in the image taken using the filter. The red colour cast this filter sometimes adds is also quite noticeable here."
+                }
+            },
+            {
+                "type": "figure",
+                "parameters": {
+                    "imageComparisonProps": {
+                        "lowerImageSrc": "/images/horsehead-flame-comparison-l-enhance-with.jpg",
+                        "lowerImageAlt": "",
+                        "upperImageSrc": "/images/horsehead-flame-comparison-l-enhance-without.jpg",
+                        "upperImageAlt": ""
+                    },
+                    "caption": "Horsehead and Flame nebula comparison images, with (40 x 60 seconds) and without (70 x 60 seconds) the L-Enhance filter"
+                }
+            },
+            {
+                "type": "paragraph",
+                "parameters": {
+                    "text": "The next image, this time of the Soul nebula (IC 1848), demonstrates another benefit of the l-enhance filter, besides screening out light pollution. This part of the sky is very densely packed with stars, and while beautiful in their own right, they do obscure the nebula somewhat, detracting from its overall prominence in the image."
+                }
+            },
+            {
+                "type": "paragraph",
+                "parameters": {
+                    "text": "The filter helps with this partly because much of the light emitted by stars is in wavelengths it excludes, but also because the narrow band-pass reduces \"star bloat\" (a phenomenon which makes stars appear larger and blurrier than they otherwise would), reducing the glow surrounding the brighter stars and resulting in a sharper-looking image overall. However, it does make the natural colours of the stars far less apparent. Again, the left image was taken with the filter and the right image without."
+                }
+            },
+            {
+                "type": "figure",
+                "parameters": {
+                    "imageComparisonProps": {
+                        "lowerImageSrc": "/images/IC1848-comparison-l-enhance-with.jpg",
+                        "lowerImageAlt": "",
+                        "upperImageSrc": "/images/IC1848-comparison-l-enhance-without.jpg",
+                        "upperImageAlt": ""
+                    },
+                    "caption": "Soul nebula comparison images, with (105 x 60 seconds) and without (69 x 60 seconds) the L-Enhance filter"
+                }
+            },
+            {
+                "type": "paragraph",
+                "parameters": {
+                    "text": "All of these benefits can be seen most clearly in this final comparison image of the Rosette, a large emission nebula in the constellation Monoceros. Details in the nebulosity are clearly visible in the filtered image which are only hinted at in the unfiltered version. Star bloat and the overall prominence of the stars is greatly reduced, to the benefit of the nebula, but the natural star colours are much plainer to see in the unfiltered image. Overall, I think the tradeoff is clearly worth it!"
+                }
+            },
+            {
+                "type": "figure",
+                "parameters": {
+                    "imageComparisonProps": {
+                        "lowerImageSrc": "/images/NGC2244-comparison-l-enhance-with.jpg",
+                        "lowerImageAlt": "",
+                        "upperImageSrc": "/images/NGC2244-comparison-l-enhance-without.jpg",
+                        "upperImageAlt": ""
+                    },
+                    "caption": "Rosette nebula comparison images, with (60 x 60 seconds) and without (58 x 60 seconds) the L-Enhance filter"
+                }
+            },
+            {
+                "type": "paragraph",
+                "parameters": {
+                    "text": "This article can't really be considered a fair review, as this is so far the only filter of this type which I've used. I also have no affiliation with Optolong whatsoever, this is purely my own opinion. However, I can say that for me personally, this filter has been well worth the cost, and has quickly become a standard item of equipment when I'm photographing emission nebulae. These days I rarely image them without it. There are better and more modern filters of this type available now, and I'm interested to see how much benefit they provide when I get chance to test them in future."
+                }
+            }
+        ]
+    }
+}

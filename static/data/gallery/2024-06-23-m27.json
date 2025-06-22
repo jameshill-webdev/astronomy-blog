@@ -1,0 +1,59 @@
+{
+	"metadata": {
+		"date": "2024-06-23",
+		"slug": "2024-06-23-m27",
+		"published": true
+	},
+	"collapsedView": {
+		"title": "Dumbbell Nebula",
+		"thumbnail": {
+			"src": "/images/M27-20240623-thumb.jpg",
+			"alt": "The Dumbbell nebula looks more egg-shaped in this image, with the red-coloured gases forming the eponymous dumbbell shape, and the remainder of the shell made up of green gases"
+		}
+	},
+	"expandedView": {
+		"image": {
+			"src": "/images/M27-20240623-expanded.jpg",
+			"expandedSrc": "/images/M27-20240623-full.jpg",
+			"alt": "The Dumbbell nebula looks more egg-shaped in this image, with the red-coloured gases forming the eponymous dumbbell shape, and the remainder of the shell made up of green gases"
+		},
+		"title": "Dumbbell Nebula",
+		"objectInformation": {
+			"otherNames": "M 27, NGC 6853",
+			"type": "Planetary nebula",
+			"age": "9,800 years",
+			"distance": "1,360 light years",
+			"size": "2.8 light years",
+			"constellation": "Vulpecula"
+		},
+		"equipmentAndMethod": {
+			"optics": "Askar 103 APO refractor",
+			"mount": "ZWO AM5",
+			"camera": "ZWO ASI 294 MC + Optolong L-Enhance",
+			"exposures": "50 x 30 seconds",
+			"software": "Deep Sky Stacker, GraXpert, Photoshop"
+		},
+		"content": {
+			"components": [
+				{
+					"type": "paragraph",
+					"parameters": {
+						"text": "The dumbbell nebula was the first known object of its type when it was discovered by Charles Messier in 1764. It is a nearby example of a planetary nebula, so named because they were often mistaken for planets by observers at the time, owing to their small apparent size, relatively high brightness, and roughly circular shape. M27 is particularly bright, and also makes a great target for visual observation."
+					}
+				},
+				{
+					"type": "paragraph",
+					"parameters": {
+						"text": "This is another celestial body which debatably bears little resemblance to its namesake, but there is a definite figure of eight or hourglass structure visible. Planetary nebulae are effectively huge cosmic explosions: expanding shells of glowing ionized gas ejected by stars in the final stages of their lives. Although they all have the same origin, the variety in their appearance is astonishing, and each example is strikingly unique."
+					}
+				},
+				{
+					"type": "paragraph",
+					"parameters": {
+						"text": "In this image, the bluish-green colours come from oxygen (OIII), and the reddish colours from hydrogen (Ha). The dual narrowband filter does give an unnatural tint to the stars in the image, but more than makes up for it by bringing out the vibrant colours in the nebula itself. As always, I was keen to make the most of a precious clear night, and collected only 50 one-minute exposures before moving on. Despite this, a good amount of detail is visible, and noise is relatively low."
+					}
+				}
+			]
+		}
+	}
+}

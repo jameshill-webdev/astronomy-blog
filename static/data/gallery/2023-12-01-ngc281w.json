@@ -1,0 +1,59 @@
+{
+	"metadata": {
+		"date": "2023-12-01",
+		"slug": "2023-12-01-ngc281w",
+		"published": true
+	},
+	"collapsedView": {
+		"title": "Pacman Nebula",
+		"thumbnail": {
+			"src": "/images/NGC281W-20231201-thumb.jpg",
+			"alt": "Image of the Pacman nebula, casted red by the dual-band filter"
+		}
+	},
+	"expandedView": {
+		"image": {
+			"src": "/images/NGC281W-20231201-expanded.jpg",
+			"expandedSrc": "/images/NGC281W-20231201-full.jpg",
+			"alt": "Image of the Pacman nebula, casted red by the dual-band filter"
+		},
+		"title": "Pacman Nebula",
+		"objectInformation": {
+			"otherNames": "NGC 281, IC 11, Sh2 184",
+			"type": "Emission nebula",
+			"age": "3 - 4 million years (estimate)",
+			"distance": "9,500 light years",
+			"size": "96 light years",
+			"constellation": "Cassiopeia"
+		},
+		"equipmentAndMethod": {
+			"optics": "Askar 103 APO refractor",
+			"mount": "ZWO AM5",
+			"camera": "ZWO ASI 294 MC + Optolong L-Enhance",
+			"exposures": "100 x 60 seconds",
+			"software": "Deep Sky Stacker, GraXpert, Photoshop"
+		},
+		"content": {
+			"components": [
+				{
+					"type": "paragraph",
+					"parameters": {
+						"text": "The pacman nebula is named after the video game character, although the resemblance is a little questionable. This emission nebula is faint but very beautiful, and resides in the Perseus arm of the Milky Way galaxy, which neighbours our own Orion arm. From our point of view on earth, it is located in Cassiopeia, a northern constellation shaped like the letter W."
+					}
+				},
+				{
+					"type": "paragraph",
+					"parameters": {
+						"text": "My favourite features in this nebula are the finger-like pillars of gas and dust, which remind me of the iconic Hubble image \"the pillars of creation\". The pillars in this image are several light years in length. Like many nebulae, it is a star-forming region or \"stellar nursery\", its interior illuminated by light from the cluster of newborn stars designated IC 1590."
+					}
+				},
+				{
+					"type": "paragraph",
+					"parameters": {
+						"text": "This image was captured with my usual deep-sky setup, with the addition of a dual-band filter, which blocks much of the light pollution that normally degrades nebula images in particular. Perhaps more importantly in this image, it also helps the nebula stand out against the sea of intervening stars which fill this part of the sky. It does give the image a noticeably red tint compared to the natural colours, but the tradeoff seems worth it as much more detail can be seen."
+					}
+				}
+			]
+		}
+	}
+}

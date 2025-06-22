@@ -1,0 +1,59 @@
+{
+	"metadata": {
+		"date": "2024-10-02",
+		"slug": "2024-10-02-m33",
+		"published": true
+	},
+	"collapsedView": {
+		"title": "Triangulum Galaxy",
+		"thumbnail": {
+			"src": "/images/M33-20241002-thumb.jpg",
+			"alt": "the slightly elliptical-looking spiral of M33 fills most of the frame in this image, with fine detail such as dust lanes and nebulae clearly visible in the arms leading from its bright core"
+		}
+	},
+	"expandedView": {
+		"image": {
+			"src": "/images/M33-20241002-expanded.jpg",
+			"expandedSrc": "/images/M33-20241002-full.jpg",
+			"alt": "the slightly elliptical-looking spiral of M33 fills most of the frame in this image, with fine detail such as dust lanes and nebulae clearly visible in the arms leading from its bright core"
+		},
+		"title": "Triangulum Galaxy",
+		"objectInformation": {
+			"otherNames": "M 33, NGC 598",
+			"type": "Spiral galaxy",
+			"age": "10 billion years",
+			"distance": "2.7 million light years",
+			"size": "61,000 light years",
+			"constellation": "Triangulum"
+		},
+		"equipmentAndMethod": {
+			"optics": "Askar 103 APO refractor",
+			"mount": "ZWO AM5",
+			"camera": "ZWO ASI 533 MC Pro + Optolong L-Pro",
+			"exposures": "86 x 60 seconds",
+			"software": "Deep Sky Stacker, GraXpert, Photoshop"
+		},
+		"content": {
+			"components": [
+				{
+					"type": "paragraph",
+					"parameters": {
+						"text": "Galaxies are some of my personal favourite observation targets. These island universes are almost as old as the universe itself, each containing billions of stars. They are the largest, most distant, and most ancient objects we can perceive. Until Edwin Hubble's breakthrough in the 1920s, our own Milky Way was thought to comprise the entire universe. Galaxies like M33 were classified as \"spiral nebulae\". Now, a mere hundred years later, we know our galaxy is merely one among hundreds of billions."
+					}
+				},
+				{
+					"type": "paragraph",
+					"parameters": {
+						"text": "The Triangulum galaxy is the third-largest in the local group, after the Andromeda galaxy (M31) and the Milky Way, and may be a satellite of M31. Despite being independently discovered and catalogued by Charles Messier in 1764, it is now thought to have been originally discovered by Giovanni Battista Hodierna over a century earlier."
+					}
+				},
+				{
+					"type": "paragraph",
+					"parameters": {
+						"text": "M33 was my target of choice on the first night out imaging with my 103 APO telescope, and I took this picture almost exactly a year later. The quality is much improved over the original for a variety of reasons, including a newer camera, a light pollution filter, longer exposure time, and above all, more experience. Dust lanes and prominent star forming regions are visible. Next time I'd like to capture a second set of exposures in narrowband to bring out the nebulae, which is a particularly effective technique for this subject."
+					}
+				}
+			]
+		}
+	}
+}

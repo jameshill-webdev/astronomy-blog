@@ -1,0 +1,65 @@
+{
+	"metadata": {
+		"date": "2024-01-17",
+		"slug": "2024-01-17-ngc2244",
+		"published": true
+	},
+	"collapsedView": {
+		"title": "Rosette Nebula",
+		"thumbnail": {
+			"src": "/images/NGC2244-20240117-thumb.jpg",
+			"alt": "The reddish rose-flower shaped gas of the rosette nebula fills this image, with a cluster of bright jewel-like stars at its centre"
+		}
+	},
+	"expandedView": {
+		"image": {
+			"src": "/images/NGC2244-20240117-expanded.jpg",
+			"expandedSrc": "/images/NGC2244-20240117-full.jpg",
+			"alt": "The reddish rose-flower shaped gas of the rosette nebula fills this image, with a cluster of bright jewel-like stars at its centre"
+		},
+		"title": "Rosette Nebula",
+		"objectInformation": {
+			"otherNames": "Sh2 275, Skull Nebula, C 49",
+			"type": "Emission nebula",
+			"age": "2 - 3 million years",
+			"distance": "5,200 light years",
+			"size": "130 light years",
+			"constellation": "Monoceros"
+		},
+		"equipmentAndMethod": {
+			"optics": "Askar 103 APO refractor + 0.6x focal reducer",
+			"mount": "ZWO AM5",
+			"camera": "ZWO ASI 294 MC + Optolong L-Enhance",
+			"exposures": "60 x 60 seconds",
+			"software": "Deep Sky Stacker, GraXpert, Photoshop"
+		},
+		"content": {
+			"components": [
+				{
+					"type": "paragraph",
+					"parameters": {
+						"text": "This complex and beautiful object is the Rosette nebula, found just to the left of Orion in the obscure constellation of Monoceros. Named for its layered, rose-like shape, it is a giant stellar nursery containing about 2,500 young stars."
+					}
+				},
+				{
+					"type": "paragraph",
+					"parameters": {
+						"text": "NGC 2244, a large cluster of such stars, can be seen occupying the central void. The surrounding layers of gas are illuminated by their radiation. The nebula is also interspersed with dark clouds of dust. One particularly prominent line of dark, wispy clouds runs horizontally across the upper part of the nebula, silhouetted against the ionized gas behind it. Some fainter nebulosity can be seen in the background, mostly to the left of the main nebula."
+					}
+				},
+				{
+					"type": "paragraph",
+					"parameters": {
+						"text": "This is undoubtedly one of my personal favourite images. There is a good variety of interesting features on display, but it's the overall shape and structure of the object that I find most appealing. I sometimes picture a spaceship flying through it, but in reality this vast expanse would take over a century to traverse, even at the speed of light."
+					}
+				},
+				{
+					"type": "paragraph",
+					"parameters": {
+						"text": "The target itself is very photogenic, which always helps, but it is also relatively bright, making it more forgiving to photograph. Despite relatively little exposure time, plenty of detail is visible, mostly because of strong signal thanks to the high surface brightness. There is significant noise, but nothing bad enough to seriously impact the overall quality. I look forward to photographing this object again with more total exposure time to bring out additional detail, especially in the fainter nebulosity."
+					}
+				}
+			]
+		}
+	}
+}

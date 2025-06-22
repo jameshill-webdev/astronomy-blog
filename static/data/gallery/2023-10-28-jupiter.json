@@ -1,0 +1,65 @@
+{
+	"metadata": {
+		"date": "2023-10-28",
+		"slug": "2023-10-28-jupiter",
+		"published": true
+	},
+	"collapsedView": {
+		"title": "Jupiter",
+		"thumbnail": {
+			"src": "/images/Jupiter-20231028-thumb.jpg",
+			"alt": "Image of the planet Jupiter, showing cloud belts, the great red spot, and three of the Galilean moons: Europa, which is transiting Jupiter's disc, Io, and Ganymede"
+		}
+	},
+	"expandedView": {
+		"image": {
+			"src": "/images/Jupiter-20231028-expanded.jpg",
+			"expandedSrc": "/images/Jupiter-20231028-full.jpg",
+			"alt": "Image of the planet Jupiter, showing cloud belts, the great red spot, and three of the Galilean moons: Europa, which is transiting Jupiter's disc, Io, and Ganymede"
+		},
+		"title": "Jupiter",
+		"objectInformation": {
+			"otherNames": "Al-Mushtari, Mùxīng",
+			"type": "Planet",
+			"age": "4.6 billion years",
+			"distance": "588 - 968 million km",
+			"size": "142,984 km",
+			"constellation": "Zodiac"
+		},
+		"equipmentAndMethod": {
+			"optics": "Askar 103 APO refractor + 2.5x powermate",
+			"mount": "ZWO AM5",
+			"camera": "ZWO ASI 224 MC",
+			"exposures": "60 second AVI @ 60fps",
+			"software": "Autostakkert, Photoshop"
+		},
+		"content": {
+			"components": [
+				{
+					"type": "paragraph",
+					"parameters": {
+						"text": "Jupiter is the largest planet in our solar system, and one of the most interesting to observe through a telescope. Several of its cloud belts are visible in this image. The brighter belts are higher-altitude clouds, and the darker, reddish areas are generally deeper within the atmosphere. The famous great red spot, a centuries-old storm larger than the earth, can be seen near the right edge of the disc."
+					}
+				},
+				{
+					"type": "paragraph",
+					"parameters": {
+						"text": "Three of the four Galilean moons can be seen clearly in the image. Europa, a bright, icy moon thought to have a liquid ocean below the surface which could even harbour life, can just be seen over the bottom right part of the planet. Europa's shadow, more prominent than the moon itself, is clearly visible just to the right."
+					}
+				},
+				{
+					"type": "paragraph",
+					"parameters": {
+						"text": "Further right is Io, the most geologically active body in the solar system. A turbulent and hellish world, Io's close orbit subjects it to powerful tidal forces which drive its volcanism. Last is Ganymede, the largest moon in the solar system and larger than the planet Mercury. Like Europa, it is strongly believed to have a liquid ocean below its icy surface."
+					}
+				},
+				{
+					"type": "paragraph",
+					"parameters": {
+						"text": "This image was taken using a popular technique known as \"lucky imaging\", which mitigates the effects of atmospheric turbulence or \"seeing\" (the primary limiting factor when observing through an atmosphere). A large number of very short exposures are captured in rapid succession, usually as uncompressed video. Stacking software is then used to automatically select the frames least affected by turbulence, and stack them together. Satellites identified using the excellent charts at <a href=\"https://in-the-sky.org/jupiter.php\" target=\"_blank\">in-the-sky.org</a>."
+					}
+				}
+			]
+		}
+	}
+}

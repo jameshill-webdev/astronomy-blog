@@ -1,0 +1,59 @@
+{
+	"metadata": {
+		"date": "2024-07-28",
+		"slug": "2024-07-28-ngc7000",
+		"published": true
+	},
+	"collapsedView": {
+		"title": "North America Nebula",
+		"thumbnail": {
+			"src": "/images/NGC7000-20240728-thumb.jpg",
+			"alt": "the focus of this image is the illuminated right edge of a billowing cloud of gas running diagonally across the frame through a sea of stars, partially obscured by very dark clouds on the right, with the bright area between somewhat resembling the lower part of the continent of north america"
+		}
+	},
+	"expandedView": {
+		"image": {
+			"src": "/images/NGC7000-20240728-expanded.jpg",
+			"expandedSrc": "/images/NGC7000-20240728-full.jpg",
+			"alt": "the focus of this image is the illuminated right edge of a billowing cloud of gas running diagonally across the frame through a sea of stars, partially obscured by very dark clouds on the right, with the bright area between somewhat resembling the lower part of the continent of north america"
+		},
+		"title": "North America Nebula",
+		"objectInformation": {
+			"otherNames": "NGC 7000, C 20",
+			"type": "Emission nebula",
+			"age": "1 - 3 million years",
+			"distance": "2,590 light years",
+			"size": "90 light years",
+			"constellation": "Cygnus"
+		},
+		"equipmentAndMethod": {
+			"optics": "Askar 103 APO refractor",
+			"mount": "ZWO AM5",
+			"camera": "ZWO ASI 533 MC Pro + Optolong L-Enhance",
+			"exposures": "100 x 60 seconds",
+			"software": "Deep Sky Stacker, GraXpert, Photoshop"
+		},
+		"content": {
+			"components": [
+				{
+					"type": "paragraph",
+					"parameters": {
+						"text": "The large and magnificent North America nebula, named for its resemblance to the continent, is another gift from the constellation Cygnus. Part of the larger Cygnus Wall, it is an active star-forming region, and like most similar nebulae, is relatively young in astronomical terms. This image is only of part of the nebula, which is much too large to fit into my telescope's field of view."
+					}
+				},
+				{
+					"type": "paragraph",
+					"parameters": {
+						"text": "This is has to be my absolute favourite of all the images I've taken so far. Fine detail is clearly visible in the dust \"cliffs\", and the contrast between the bright background and the dark dust clouds overlying it creates a distinct feeling of depth. The colours look quite natural even with the filter, which normally adds a noticeable red cast, and noise is low by my usual standards, due to a decent total exposure time."
+					}
+				},
+				{
+					"type": "paragraph",
+					"parameters": {
+						"text": "This seems like a target that demands multiple viewings to fully appreciate, and I can see myself coming back to it on a regular basis. My next goal is to take a similar image using the focal reducer, which will give a significantly wider field of view. It would also be interesting to image without the dual-band filter as a comparison."
+					}
+				}
+			]
+		}
+	}
+}

@@ -1,0 +1,84 @@
+{
+	"metadata": {
+		"slug": "about-me",
+		"title": "About me",
+		"date": "2025-06-21",
+		"summary": "A short biography of the blog author",
+		"thumbnail": {
+			"src": "/images/103-apo-setup-thumb.jpg",
+			"alt": ""
+		},
+		"published": true
+	},
+	"content": {
+		"heading": "About me",
+		"components": [
+			{
+				"type": "paragraph",
+				"parameters": {
+					"text": "I'm James, an amateur astrophotographer living in Stockport in the UK. When time and weather permit, I take pictures of the night sky from my back garden. By day, I work as a web developer, and I designed and built this website in order to share the best of my photos with others."
+				}
+			},
+			{
+				"type": "figure",
+				"parameters": {
+					"imageProps": {
+						"src": "/images/me-and-layla-investigating-pond.jpg",
+						"alt": ""
+					},
+					"caption": "Investigating a pond in Macclesfield Forest with my dog Layla"
+				}
+			},
+			{
+				"type": "paragraph",
+				"parameters": {
+					"text": "I have a deep interest in nature and the universe around us, and space in particular has fascinated me since childhood. I had a small telescope as a young teenager, which despite not being very good, showed me Jupiter's moons, Saturn's rings, and mountains, plains and craters on the Moon."
+				}
+			},
+			{
+				"type": "paragraph",
+				"parameters": {
+					"text": "These experiences were profound, and I've never completely lost interest in the subject, but I was ultimately disappointed with what the tools at my disposal could show me, beyond these soon-to-be-familiar sights. Where were the spectacular nebulae and galaxies I saw in books, or on Sir Patrick Moore's \"The Sky At Night\" (one of my favourite shows growing up)?"
+				}
+			},
+			{
+				"type": "paragraph",
+				"parameters": {
+					"text": "It quickly became apparent that I lacked the equipment and knowledge necessary to see most of the things I'd hoped. In the years since, however, the barrier to entry has fallen a great deal, both in terms of the cost of good equipment and the skills required to get good results from it."
+				}
+			},
+			{
+				"type": "figure",
+				"parameters": {
+					"imageProps": {
+						"src": "/images/103-apo-setup.jpg",
+						"alt": ""
+					},
+					"caption": "A slightly older iteration of my current setup, an Askar 103 APO refractor on a ZWO AM5 mount. It was used to take nearly every picture you see in the gallery."
+				}
+			},
+			{
+				"type": "paragraph",
+				"parameters": {
+					"text": "Astronomy technology, like many other kinds, has come a long way in the past 10 to 15 years, and recently passed a threshold where I felt it was time to start taking the hobby seriously. In 2023 I invested in a much more capable telescope setup than anything I'd had previously, and began taking the images you see on the gallery page."
+				}
+			},
+			{
+				"type": "figure",
+				"parameters": {
+					"imageProps": {
+						"src": "/images/imaging-in-the-garden.jpg",
+						"alt": ""
+					},
+					"caption": "A typical night-time imaging session in the garden. The telescope is controlled using an app on the tablet that's sitting on the table."
+				}
+			},
+			{
+				"type": "paragraph",
+				"parameters": {
+					"text": "This time around, it's fair to say I'm far more satisfied with the results. I hope at least some visitors to my site will find my photos as enjoyable and fascinating as I do, or better still, be inspired to take an interest in the amazing universe in which we live. I plan to keep adding more whenever I can, so be sure to stop by again in the future!"
+				}
+			}
+		]
+	}
+}

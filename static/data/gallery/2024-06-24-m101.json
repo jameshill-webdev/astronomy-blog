@@ -1,0 +1,59 @@
+{
+	"metadata": {
+		"date": "2024-06-24",
+		"slug": "2024-06-24-m101",
+		"published": true
+	},
+	"collapsedView": {
+		"title": "Pinwheel Galaxy",
+		"thumbnail": {
+			"src": "/images/M101-20240624-thumb.jpg",
+			"alt": "the complex spiral of M101 looks relatively small in the centre-left of this image, with the small blob of NGC 5474 to the upper-right"
+		}
+	},
+	"expandedView": {
+		"image": {
+			"src": "/images/M101-20240624-expanded.jpg",
+			"expandedSrc": "/images/M101-20240624-full.jpg",
+			"alt": "the complex spiral of M101 looks relatively small in the centre-left of this image, with the small blob of NGC 5474 to the upper-right"
+		},
+		"title": "Pinwheel Galaxy",
+		"objectInformation": {
+			"otherNames": "M 101, NGC 5457",
+			"type": "Spiral galaxy",
+			"age": "10 billion years",
+			"distance": "21 million light years",
+			"size": "170,000 light years",
+			"constellation": "Ursa Major"
+		},
+		"equipmentAndMethod": {
+			"optics": "Askar 103 APO refractor",
+			"mount": "ZWO AM5",
+			"camera": "ZWO ASI 294 MC",
+			"exposures": "70 x 60 seconds",
+			"software": "Deep Sky Stacker, GraXpert, Photoshop"
+		},
+		"content": {
+			"components": [
+				{
+					"type": "paragraph",
+					"parameters": {
+						"text": "More than twice the size of our own galaxy and containing around a trillion stars, the pinwheel galaxy is a giant among giants. Its slightly lopsided appearance is thought to be the result of gravitational interactions with its satellites. One of these, the irregular dwarf galaxy NGC 5474, is visible to the right side of the picture."
+					}
+				},
+				{
+					"type": "paragraph",
+					"parameters": {
+						"text": "Like many of the brighter galaxies in the northern sky, it was first catalogued by Charles Messier and Pierre Mechain, the latter being credited with its discovery in 1781. It contains a large number of active star-forming regions, and several supernovae have been observed within it during the past century or so."
+					}
+				},
+				{
+					"type": "paragraph",
+					"parameters": {
+						"text": "This image is not one of my best. The level of noise is quite high as the image is somewhat over-processed to compensate for insufficient exposure time, and there is a noticeable greenish cast. Regardless, I think it was worth the effort. Some nice details are visible, including what appear to be star-forming regions. I'm always happy to image a new object for the first time regardless of the quality of the end result."
+					}
+				}
+			]
+		}
+	}
+}

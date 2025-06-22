@@ -1,0 +1,42 @@
+@import "../utilities";
+
+$breakpoint-tablet: px-to-rem(768px);
+$breakpoint-tablet-max: px-to-rem(767px);
+$breakpoint-desktop: px-to-rem(1280px);
+$breakpoint-desktop-max: px-to-rem(1279px);
+
+@mixin breakpoint-tablet {
+    @media screen and (min-width: $breakpoint-tablet) {
+        @content;
+    }
+}
+
+@mixin breakpoint-tablet-max {
+    @media screen and (max-width: $breakpoint-tablet-max) {
+        @content;
+    }
+}
+
+@mixin breakpoint-desktop {
+    @media screen and (min-width: $breakpoint-desktop) {
+        @content;
+    }
+}
+
+@mixin breakpoint-desktop-max {
+    @media screen and (max-width: $breakpoint-desktop-max) {
+        @content;
+    }
+}
+
+@mixin portrait {
+    @media (orientation: portrait) {
+        @content;
+    }
+}
+
+@mixin landscape {
+    @media (orientation: landscape) {
+        @content;
+    }
+}

@@ -1,0 +1,65 @@
+{
+	"metadata": {
+		"date": "2023-11-24",
+		"slug": "2023-11-24-moon",
+		"published": true
+	},
+	"collapsedView": {
+		"title": "The Moon",
+		"thumbnail": {
+			"src": "/images/moon-20231124-thumb.jpg",
+			"alt": "The Moon seen only a few days from full"
+		}
+	},
+	"expandedView": {
+		"image": {
+			"src": "/images/moon-20231124-expanded.jpg",
+			"expandedSrc": "/images/moon-20231124-full.jpg",
+			"alt": "The Moon seen only a few days from full"
+		},
+		"title": "The Moon",
+		"objectInformation": {
+			"otherNames": "Luna",
+			"type": "Satellite",
+			"age": "4.51 billion years",
+			"distance": "362,600 - 405,400 km",
+			"size": "3,474 km (diameter)",
+			"constellation": "Zodiac"
+		},
+		"equipmentAndMethod": {
+			"optics": "Askar 103 APO refractor",
+			"mount": "ZWO AM5",
+			"camera": "ZWO ASI 294 MC",
+			"exposures": "180 second AVI @ 60fps",
+			"software": "Autostakkert, GraXpert, Photoshop"
+		},
+		"content": {
+			"components": [
+				{
+					"type": "paragraph",
+					"parameters": {
+						"text": "While not as exotic as some targets, the moon is refreshingly easy and rewarding to observe, and is always a stunning sight even through the most humble of telescopes. This image was taken when the phase was waxing gibbous, nearing full."
+					}
+				},
+				{
+					"type": "paragraph",
+					"parameters": {
+						"text": "The most dominant features are the dark areas known as mare, or \"seas\", which are actually huge solidified pools of ancient lava, now forming rocky plains. Without an atmosphere to burn up meteorites, the surface is riddled with craters of all sizes. Perhaps the most prominent of these are Tycho in the south, and Copernicus just to the west of centre. Both have striking ray systems made up of rocks and dust ejected by the impacts that formed them."
+					}
+				},
+				{
+					"type": "paragraph",
+					"parameters": {
+						"text": "The moon's unique characteristics make photographing it an interesting challenge. As with the planets, the moon's relatively bright nature means short exposure lucky imaging can be used to minimise the blurring effect of the earth's atmosphere. However, its large apparent size makes photographing it at high resolution a demanding task for today's hardware."
+					}
+				},
+				{
+					"type": "paragraph",
+					"parameters": {
+						"text": "This image is actually a mosaic of two parts - one of the top half of the moon, and another of the bottom - stitched together. Most lunar images taken by amateurs are such mosaics, as the sensors of cameras used for this type of imaging are typically too small to fit the whole moon into the field of view, and higher resolution models can struggle to reach sufficiently high framerates without cropping. One of my long-term goals is to take a full set of images of the moon at every phase, and possibly use them to create an animation."
+					}
+				}
+			]
+		}
+	}
+}

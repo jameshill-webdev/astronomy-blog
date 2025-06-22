@@ -1,0 +1,59 @@
+{
+	"metadata": {
+		"date": "2024-07-28",
+		"slug": "2024-07-28-ngc6888",
+		"published": true
+	},
+	"collapsedView": {
+		"title": "Crescent Nebula",
+		"thumbnail": {
+			"src": "/images/NGC6888-20240728-thumb.jpg",
+			"alt": "the jellyfish-like crescent nebula appears as a shell of orange gas in this image, floating in a dense region of stars, with a rich background of faint red nebulosity"
+		}
+	},
+	"expandedView": {
+		"image": {
+			"src": "/images/NGC6888-20240728-expanded.jpg",
+			"expandedSrc": "/images/NGC6888-20240728-full.jpg",
+			"alt": "the jellyfish-like crescent nebula appears as a shell of orange gas in this image, floating in a dense region of stars, with a rich background of faint red nebulosity"
+		},
+		"title": "Crescent Nebula",
+		"objectInformation": {
+			"otherNames": "NGC 6888, C 27",
+			"type": "Emission nebula",
+			"age": "250,000 - 400,000 years",
+			"distance": "5,000 light years",
+			"size": "25 light years",
+			"constellation": "Cygnus"
+		},
+		"equipmentAndMethod": {
+			"optics": "Askar 103 APO refractor",
+			"mount": "ZWO AM5",
+			"camera": "ZWO ASI 533 MC Pro + Optolong L-Enhance",
+			"exposures": "35 x 120 seconds",
+			"software": "Deep Sky Stacker, GraXpert, Photoshop"
+		},
+		"content": {
+			"components": [
+				{
+					"type": "paragraph",
+					"parameters": {
+						"text": "Cygnus is a constellation of great interest to astrophotographers, being home to more than its fair share of beautiful nebulae. The crescent is no exception. Its shape suggest a planetary nebula or supernova remnant, but it is technically an emission nebula. The powerful solar wind from a Wolf-Rayet star is ionizing earlier waves of material ejected when it became a red giant, causing them to glow. This ailing star is expected to eventually explode in a supernova which will destroy the nebula as we see it now."
+					}
+				},
+				{
+					"type": "paragraph",
+					"parameters": {
+						"text": "While planetary nebulae are also composed of ionized shells of matter ejected from stars, they are caused by white dwarfs and are generally much smaller. Wolf-Rayet stars are large and extremely hot, having consumed most of their hydrogen and begun fusing helium or heavier elements. They also produce strong solar winds. Stars of this type are central to several similar objects, such as the bubble nebula and Thor's helmet."
+					}
+				},
+				{
+					"type": "paragraph",
+					"parameters": {
+						"text": "This was the first image taken with my ASI 533 camera, which besides producing square images and using newer technology, includes active cooling which helps in the eternal battle against noise. I decided to try 120 second exposures instead of the usual 60, but as always didn't get enough overall exposure time to produce a really good image. Still, the end result is quite pleasing, with plenty of detail in the nebula and some fainter nebulosity visible in the background."
+					}
+				}
+			]
+		}
+	}
+}

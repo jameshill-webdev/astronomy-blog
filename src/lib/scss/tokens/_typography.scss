@@ -1,0 +1,162 @@
+@import "../utilities";
+@import "./media";
+
+@font-face {
+    font-family: 'Montserrat-Light';
+    src: URL('/fonts/Montserrat-Light.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'Montserrat-SemiBold';
+    src: URL('/fonts/Montserrat-SemiBold.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'Gruppo';
+    src: URL('/fonts/Gruppo-Regular.ttf') format('truetype');
+}
+
+$font-weight-normal: 400;
+
+$font-family-body-regular: 'Montserrat-Light', sans-serif;
+$font-family-body-bold: 'Montserrat-SemiBold', sans-serif;
+$font-family-ui: 'Gruppo', sans-serif;
+
+$font-size-xxxl: px-to-rem(80px);
+$font-size-xxl: px-to-rem(64px);
+$font-size-xl:  px-to-rem(48px);
+$font-size-l:   px-to-rem(36px);
+$font-size-m:   px-to-rem(28px);
+$font-size-s:   px-to-rem(20px);
+$font-size-xs:  px-to-rem(16px);
+$font-size-xxs: px-to-rem(14px);
+
+@mixin typeface-body {
+    font-family: $font-family-body-regular;
+    font-size: $font-size-xs;
+    line-height: 1.5;
+
+    @include breakpoint-tablet {
+        font-size: $font-size-s;
+    }
+}
+
+@mixin typeface-body-bold {
+    font-family: $font-family-body-bold;
+    font-size: $font-size-xs;
+    line-height: 1.5;
+
+    @include breakpoint-tablet {
+        font-size: $font-size-s;
+    }
+}
+
+@mixin typeface-caption {
+    font-family: $font-family-body-bold;
+    font-size: $font-size-xs;
+}
+
+@mixin typeface-link {
+    font-family: $font-family-body-bold;
+    font-size: $font-size-xs;
+}
+
+@mixin typeface-heading-1 {
+    font-family: $font-family-ui;
+    font-size: $font-size-xl;
+    line-height: 1;
+    font-weight: $font-weight-normal;
+
+    @include breakpoint-tablet {
+        font-size: $font-size-xxl;
+    }
+
+    @include breakpoint-desktop {
+        font-size: $font-size-xxxl;
+    }
+}
+
+@mixin typeface-heading-2 {
+    font-family: $font-family-ui;
+    font-size: $font-size-xl;
+    line-height: 1;
+    font-weight: $font-weight-normal;
+
+    @include breakpoint-desktop {
+        font-size: $font-size-xxl;
+    }
+}
+
+@mixin typeface-heading-3 {
+    font-family: $font-family-ui;
+    font-size: $font-size-l;
+    line-height: 1;
+    font-weight: $font-weight-normal;
+
+    @include breakpoint-desktop {
+        font-size: $font-size-xl;
+    }
+}
+
+@mixin typeface-heading-4 {
+    font-family: $font-family-ui;
+    font-size: $font-size-m;
+    line-height: 1;
+    font-weight: $font-weight-normal;
+
+    @include breakpoint-desktop {
+        font-size: $font-size-l;
+    }
+}
+
+@mixin typeface-footer {
+    font-family: $font-family-ui;
+    font-size: $font-size-xs;
+    line-height: 1.5;
+    text-transform: uppercase;
+    letter-spacing: 0.25px;
+}
+
+@mixin typeface-logo {
+    font-family: $font-family-ui;
+    font-size: $font-size-m;
+    line-height: 1;
+    text-transform: uppercase;
+}
+
+@mixin typeface-header-link {
+    font-family: $font-family-ui;
+    font-size: $font-size-s;
+    line-height: 1;
+    text-transform: uppercase;
+
+    @include breakpoint-tablet {
+        font-size: $font-size-m;
+    }
+}
+
+@mixin typeface-body-large {
+    font-family: $font-family-body-regular;
+    font-size: $font-size-s;
+}
+
+@mixin typeface-body-small {
+    @include typeface-body;
+
+    font-size: $font-size-xxs;
+
+    @include breakpoint-tablet {
+        font-size: $font-size-xs;
+    }
+}
+
+@mixin typeface-info {
+    font-family: $font-family-body-bold;
+    font-size: $font-size-xxs;
+    line-height: $font-size-s;
+
+    @include breakpoint-tablet {
+        font-size: $font-size-s;
+        line-height: $font-size-m;
+    }
+}

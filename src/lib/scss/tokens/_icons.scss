@@ -1,0 +1,23 @@
+@import "../utilities";
+
+$icon-paths: (
+  'arrow': '/icons/play.svg',
+  'filter': '/icons/filter-solid.svg',
+  'search': '/icons/magnifying-glass-solid.svg',
+  'hand-pointer': '/icons/hand-pointer.svg',
+  'chevron-up': '/icons/chevron-up.svg',
+  'arrows-left-right': '/icons/arrows-left-right.svg',
+  'loader': '/icons/loader.svg'
+);
+
+@mixin icon ($type) {
+  content: "";
+  display: block;
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background-image: url(map-get($icon-paths, $type));
+  background-repeat: no-repeat;
+}

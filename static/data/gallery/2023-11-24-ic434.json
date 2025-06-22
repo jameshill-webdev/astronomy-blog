@@ -1,0 +1,59 @@
+{
+	"metadata": {
+		"date": "2024-06-21",
+		"slug": "2023-11-24-ic434",
+		"published": true
+	},
+	"collapsedView": {
+		"title": "Horsehead Nebula & Flame Nebula",
+		"thumbnail": {
+			"src": "/images/IC434-20231124-thumb.jpg",
+			"alt": "The Horsehead and Flame nebulae along with the bright star Alnitak"
+		}
+	},
+	"expandedView": {
+		"image": {
+			"src": "/images/IC434-20231124-expanded.jpg",
+			"expandedSrc": "/images/IC434-20231124-full.jpg",
+			"alt": "The Horsehead and Flame nebulae along with the bright star Alnitak"
+		},
+		"title": "Horsehead Nebula & Flame Nebula",
+		"objectInformation": {
+			"otherNames": "IC 434, NGC 2024, Sh2 277",
+			"type": "Emission nebula",
+			"age": "2 - 3 million years, 1 - 2 million years",
+			"distance": "1,260 light years, 1,350 light years",
+			"size": "7 light years, 12 light years",
+			"constellation": "Orion"
+		},
+		"equipmentAndMethod": {
+			"optics": "Askar 103 APO refractor",
+			"mount": "ZWO AM5",
+			"camera": "ZWO ASI 294 MC",
+			"exposures": "70 x 60 seconds",
+			"software": "Deep Sky Stacker, GraXpert, Photoshop"
+		},
+		"content": {
+			"components": [
+				{
+					"type": "paragraph",
+					"parameters": {
+						"text": "While some nebulae debatably don't look much like the objects they're said to resemble, the same can't be said for these two. The horsehead nebula is surely one of the most iconic sights in the night sky, and another that's found in Orion. The brightest star in the image is Alnitak, the leftmost star in Orion's belt. Technically, the horsehead is a dark nebula composed of dust which is blocking light from IC434, the region of ionized hydrogen behind it."
+					}
+				},
+				{
+					"type": "paragraph",
+					"parameters": {
+						"text": "Just below Alnitak is the flame nebula, another region of ionized hydrogen partially obscured by clouds of dust. This, together with the horsehead and the nearby NGC2023, a small but bright reflection nebula, make this one of the most classic astrophotography targets. Finally seeing this one for myself after being amazed by Hubble's image of it as a child was quite a special moment."
+					}
+				},
+				{
+					"type": "paragraph",
+					"parameters": {
+						"text": "Although I'm happy to have captured my own image of this target, in terms of quality, there's a lot of room for improvement. Only 70 1-minute exposures were used, and the horsehead is known for being quite faint, so more would definitely help improve the detail and reduce the noise. There is also some noticeable bloom around Alnitak, probably caused by dew on the lens."
+					}
+				}
+			]
+		}
+	}
+}
