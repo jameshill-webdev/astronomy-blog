@@ -34,6 +34,7 @@
 	},
 	"type": "module",
 	"dependencies": {
+		"@sveltejs/adapter-vercel": "^5.7.2",
 		"dompurify": "^3.0.6",
 		"focus-trap": "^7.6.1"
 	}
