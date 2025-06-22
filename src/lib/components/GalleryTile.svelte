@@ -39,7 +39,8 @@
 <style lang="scss">
     @import '../scss/main';
 
-    $tile-size: px-to-rem(280px);
+    $tile-size: px-to-rem(170px);
+    $tile-size-desktop: px-to-rem(280px);
 
     .tile {
         @include gallery-tile-hoverable;
@@ -106,6 +107,11 @@
             text-align: center;
             max-width: 50%;
             pointer-events: none;
+        }
+
+        @include breakpoint-tablet {
+            width: $tile-size-desktop;
+            height: $tile-size-desktop;
         }
 
         @include breakpoint-desktop {

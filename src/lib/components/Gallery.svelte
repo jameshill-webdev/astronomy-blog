@@ -104,7 +104,8 @@
 <style lang="scss">
     @import '../scss/main';
 
-    $tile-size: px-to-rem(300px);
+    $tile-size: px-to-rem(180px);
+    $tile-size-desktop: px-to-rem(280px);
 
     .gallery {
         display: block;
@@ -166,8 +167,13 @@
         }
 
         &__item {
-            width: px-to-rem(224px);
-            height: px-to-rem(260px);
+            width: px-to-rem(135px);
+            height: px-to-rem(156px);
+
+            @include breakpoint-tablet {
+                width: px-to-rem(222px);
+                height: px-to-rem(256px);
+            }
 
             @include breakpoint-desktop {
                 flex-direction: column;
