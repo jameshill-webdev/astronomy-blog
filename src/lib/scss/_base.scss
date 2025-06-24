@@ -17,16 +17,23 @@
 }
 
 :global(main) {
-	min-height: 100vh;
+	$mobile-header-height: 84px;
+	$mobile-footer-height: 60px;
+	$tablet-footer-height: 36px;
+	min-height: calc(100vh - $mobile-header-height - $mobile-footer-height);
+
+	@include breakpoint-tablet {
+		min-height: calc(100vh - $mobile-header-height - $tablet-footer-height);
+	}
 }
 
 :global(h1) {
-    border-bottom: 1px solid $color-grey-alto;
-    display: block;
-    text-align: center;
-    padding-bottom: $spacing-1;
-    margin-top: $spacing-2;
-    margin-bottom: $spacing-2;
+	border-bottom: 1px solid $color-grey-alto;
+	display: block;
+	text-align: center;
+	padding-bottom: $spacing-1;
+	margin-top: $spacing-2;
+	margin-bottom: $spacing-2;
 
 	@include typeface-heading-1;
 
@@ -42,28 +49,28 @@
 :global(h2) {
 	margin: 0;
 
-    @include typeface-heading-2;
+	@include typeface-heading-2;
 }
 :global(h3) {
 	margin: 0;
 
-    @include typeface-heading-3;
+	@include typeface-heading-3;
 }
 :global(p),
 :global(ul),
 :global(ol) {
 	margin: 0 0 $spacing-2 0;
-	
-    @include typeface-body;
+
+	@include typeface-body;
 
 	@include breakpoint-tablet {
-        margin: 0 0 $spacing-3 0;
-    }
+		margin: 0 0 $spacing-3 0;
+	}
 }
 
 :global(ul),
 :global(ol) {
-    padding-left: $spacing-2;
+	padding-left: $spacing-2;
 }
 
 :global(a) {

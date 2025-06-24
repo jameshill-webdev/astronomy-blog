@@ -21,10 +21,12 @@
 <style lang="scss">
     @import '../scss/main';
 
+    $nav-background-colour: rgba(0, 22, 70, 0.975);
+
     .nav {
         $root: &;
-
-        background: rgba(0, 22, 70, 0.975);
+        
+        background: $nav-background-colour;
         border-top: 1px solid $color-white-25;
         position: fixed;
         right: 0;
@@ -32,6 +34,21 @@
         left: 0;
         height: px-to-rem(60px);
         z-index: $z-index-6;
+
+        &:after {
+            content: "";
+            display: block;
+            position: absolute;
+            top: 100%;
+            left: 0;
+            right: 0;
+            height: 100vh;
+            background-color: $nav-background-colour;
+
+            @include breakpoint-tablet {
+                display: none;
+            }
+        }
 
         @include breakpoint-tablet {
             display: block;

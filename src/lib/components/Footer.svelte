@@ -7,6 +7,11 @@
         text-align: center;
         padding: $spacing-4;
         user-select: none;
+        margin-bottom: 62px;
+
+        @include breakpoint-tablet {
+            margin-bottom: 0;
+        }
     }
 </style>
 

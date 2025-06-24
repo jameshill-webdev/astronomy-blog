@@ -5,8 +5,10 @@
 <style lang="scss">
 	@import '../../lib/scss/main';
 
-	$thumbnail-size-mobile: 100px;
+	$thumbnail-size-mobile: 125px;
 	$thumbnail-size-desktop: 150px;
+	$mobile-hex-width-ratio: 1.3;
+	$desktop-hex-width-ratio: 1.2;
 
 	.article-list-item {
 		$root: &;
@@ -52,6 +54,8 @@
 			display: flex;
 			position: relative;
 			flex-direction: row;
+			justify-content: flex-start;
+			align-items: center;
 			padding-bottom: $spacing-1;
 			margin-bottom: $spacing-5;
 		}
@@ -61,7 +65,7 @@
 
 			display: block;
 			position: relative;
-			width: px-to-rem($thumbnail-size-mobile * $const-hex-width-ratio);
+			width: px-to-rem($thumbnail-size-mobile * $mobile-hex-width-ratio);
 			height: px-to-rem($thumbnail-size-mobile);
 			clip-path: polygon(75% 0%, 100% 50%, 75% 100%, 25% 100%, 0% 50%, 25% 0%);
 			backface-visibility: hidden;
@@ -80,8 +84,12 @@
 				image-rendering: optimizeQuality;
 			}
 
+			@include breakpoint-tablet {
+				width: px-to-rem($thumbnail-size-mobile * $desktop-hex-width-ratio);
+			}
+
 			@include breakpoint-desktop {
-				width: px-to-rem($thumbnail-size-desktop * $const-hex-width-ratio);
+				width: px-to-rem($thumbnail-size-desktop * $desktop-hex-width-ratio);
 				height: px-to-rem($thumbnail-size-desktop);
 			}
 		}
@@ -97,20 +105,17 @@
 			}
 
 			&-text {
-				@include typeface-heading-3;
+				@include typeface-heading-4;
+
+				@include breakpoint-tablet {
+					@include typeface-heading-3;
+				}
 			
 				font-weight: normal;
-				font-size: $font-size-l;
 				display: inline-block;
 				position: relative;
 				margin: 0;
 				padding-bottom: 1px;
-				top: 50%;
-				transform: translateY(-50%);
-
-				@include breakpoint-desktop {
-					font-size: $font-size-xl;
-				}
 			}
 		}
 
